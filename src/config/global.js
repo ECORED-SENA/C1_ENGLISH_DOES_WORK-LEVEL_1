@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativoENG: 'Hello! It’s nice to meet you. ',
+    componenteFormativo: '¡Hola! Encantado de conocerte.',
+    descripcionCurso:
+      'Durante el siguiente componente se brinda la introducción a las nociones gramaticales básicas, desde artículos, sustantivos y pronombres de sujeto para denominar correctamente cualquier cosa (persona, animal, objeto, etc.), pasando por el verbo ser/estar, los saludos y las despedidas, para enunciar ideas un poco más elaboradas; y por último, vocabulario útil, como los números, los colores y la pronunciación del alfabeto.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
   menuPrincipal: {

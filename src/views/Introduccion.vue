@@ -5,18 +5,21 @@
   
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span
+        span.text-white
           i.fas.fa-info
       h1 Introducción
-
+    p.mb-5 Bienvenido al componente formativo 
+      span.fw-bold Hello! It’s nice to meet you. / ¡Hola! Encantado de conocerte. 
+      | En el siguiente video, conocerá la temática que estudiará a lo largo del componente.
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 
 <script>
 export default {
   name: 'Introduccion',
-  data: () => ({
-    // variables de vue
-  }),
+  data: () => ({}),
 }
 </script>
 
