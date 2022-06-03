@@ -7,7 +7,7 @@
         span 4
       h1.fst-italic Vocabulary: Let's start
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4(data-aos='zoom-in-up')
+      .col-lg-4(data-aos='zoom-in-up'): img(src='@/assets/curso/temas/38.png')
       .col-lg-8
         p El abecedario, los colores y los números son conceptos básicos necesarios para poder empezar a construir un buen vocabulario en inglés, que será útil para crear y ensamblar ideas o estructuras más complejas.
           br
@@ -234,21 +234,21 @@
             span.r-3.fst-italic.fw-bold Yellow
             br
             | Amarillo
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/26.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/27.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           img(src='@/assets/curso/temas/sound.svg' alt='AvatarTop' style='width: 28px').mb-3.m-auto
           p.text-center
             span.r-3.fst-italic.fw-bold Orange
             br
             | Naranja
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/26.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/28.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           img(src='@/assets/curso/temas/sound.svg' alt='AvatarTop' style='width: 28px').mb-3.m-auto
           p.text-center
             span.r-3.fst-italic.fw-bold Red
             br
             | Rojo
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/26.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/29.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           img(src='@/assets/curso/temas/sound.svg' alt='AvatarTop' style='width: 28px').mb-3.m-auto
           p.text-center
@@ -257,7 +257,7 @@
             | Rosado
             br
             | Rosa
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/26.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/30.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           img(src='@/assets/curso/temas/sound.svg' alt='AvatarTop' style='width: 28px').mb-3.m-auto
           p.text-center
@@ -266,42 +266,42 @@
             | Morado
             br
             | Purpura 
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/26.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/31.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           img(src='@/assets/curso/temas/sound.svg' alt='AvatarTop' style='width: 28px').mb-3.m-auto
           p.text-center
             span.r-3.fst-italic.fw-bold Blue
             br
             | Azul
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/26.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/32.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           img(src='@/assets/curso/temas/sound.svg' alt='AvatarTop' style='width: 28px').mb-3.m-auto
           p.text-center
             span.r-3.fst-italic.fw-bold Green
             br
             | Verde
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/26.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/33.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           img(src='@/assets/curso/temas/sound.svg' alt='AvatarTop' style='width: 28px').mb-3.m-auto
           p.text-center
             span.r-3.fst-italic.fw-bold White
             br
             | Blanco
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/26.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/34.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           img(src='@/assets/curso/temas/sound.svg' alt='AvatarTop' style='width: 28px').mb-3.m-auto
           p.text-center
             span.r-3.fst-italic.fw-bold Black
             br
             | Negro
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/26.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/35.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           img(src='@/assets/curso/temas/sound.svg' alt='AvatarTop' style='width: 28px').mb-3.m-auto
           p.text-center
             span.r-3.fst-italic.fw-bold Brown
             br
             | Marrón
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/26.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/36.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           img(src='@/assets/curso/temas/sound.svg' alt='AvatarTop' style='width: 28px').mb-3.m-auto
           p.text-center
@@ -309,13 +309,200 @@
 
             br
             | Gris
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/26.jpg')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/37.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           img(src='@/assets/curso/temas/sound.svg' alt='AvatarTop' style='width: 28px').mb-3.m-auto
           p.text-center
             span.r-3.fst-italic.fw-bold Silver
             br
             | Plata
+    .row.justify-content-center.align-items-end.mb-5
+      .col-lg-4.col-8(data-aos='fade-right').mb-3.mb-lg-0
+        img.w-100(src='@/assets/curso/temas/39.png', alt='Texto que describa la imagen')
+        .tarjeta.color-secundario.rounded-0.p-3
+          p.mb-0.text-center ¿Cuál es la diferencia entre 
+            span.r-3.fst-italic gray 
+            | y 
+            span.r-3.fst-italic grey?
+      .col-lg-5
+        p 
+          span.r-3.fst-italic Gray 
+          | es ampliamente usado en el inglés americano, en cambio, 
+          span.r-3.fst-italic grey 
+          | es usado con más frecuencia en el inglés británico. Pasa lo mismo con la palabra <b>“color”</b>, la cual se escribe 
+          span.r-3.fst-italic color 
+          | en inglés americano y 
+          span.r-3.fst-italic colour 
+          | en inglés británico:
+    .row.justify-content-center.mb-5.g-0
+      .col-lg-3
+        .bg-tarjeta-v.p-4.text-white.h-100
+          p Español:
+            br
+            |¿Cuál es tu color favorito?
+            br
+            |Mi color favorito es el gris.
+      .col-lg-9
+        .bg--4-claro.p-4
+          .row.justify-content-center
+            .col-lg-6.mb-3.mb-lg-0
+              .d-flex.align-items-center
+                img(src='@/assets/curso/temas/40.svg', alt='Texto que describa la imagen' style='width:85px').me-3
+                .content
+                  h4 Inglés americano:
+                  img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+                  img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen')
+            .col-lg-6.mb-3.mb-lg-0
+              .d-flex.align-items-center
+                img(src='@/assets/curso/temas/41.svg', alt='Texto que describa la imagen' style='width:85px').me-3
+                .content
+                  h4 Inglés británico:
+                  img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+                  img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen')
+    Separador
+    #t_4_3.titulo-segundo.color-acento-contenido(data-aos='fade-left')
+      h2 4.3 Números en inglés
+    p.mb-5(data-aos='fade-right') Los números en inglés son muy similares a los números en español, en su mayor parte; sin embargo, hay elementos propios del inglés que resaltan al trabajarlos:
+    .row.justify-content-center.mb-5
+      .col-lg-4
+        img(data-aos='zoom-in-up')(src='@/assets/curso/temas/42.jpg', alt='Texto que describa la imagen').w-100
+      .col-lg-8
+        .tarjeta.bg-tarjeta-v.p-5(data-aos='zoom-in-up')
+          SlyderA(tipo='b')
+            div
+              .tarjeta.bg--4-claro.p-5
+                h4.text-center El número cero (0) puede llamarse de dos formas:
+                .row.justify-content-center.mb-5
+                  .col-lg-5
+                    img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').w-100
+                    img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').w-100
+                    img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').w-100
+                    img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').w-100
+                    img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').w-100
+                    img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').w-100
+                  .col-lg-5
+                    img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').w-100
+                    img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').w-100
+                    img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').w-100
+                    img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').w-100
+                    img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').w-100
+                    img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').w-100
+            div
+              .tarjeta.bg--4-claro.p-5
+                p.mb-3 
+                  span.r-3.fst-italic Zero / Oh 
+                  | (se pronuncia como la letra O del alfabeto) 
+                  br
+                  br
+                  |Comúnmente, se usa el término 
+                  span.r-3.fst-italic “zero” 
+                  | en contextos matemáticos y científicos. Por el contrario, 
+                  span.r-3.fst-italic “Oh” 
+                  | es más común en contextos como el dictado de un número telefónico o un código:
+                // espacio para audio
+                p.mb-3 Mi número de teléfono es 3 - 1 - 0 - 7 - 8 - 9 - 4 - 5 - 1 - 4.
+                // espacio para audio
+                p.mb-3 Mi código pin es 1-0-2-0
+            div
+              .tarjeta.bg--4-claro.p-5
+                h4.text-center.fw-bold
+                  span.tarjeta.color-acento-contenido.rounded-0.p-2.px-5 Warning! / ¡Advertencia!
+                p.text-center Si bien se ve una similitud en los números de uno y dos dígitos que podría llegar a parecer un patrón en el que solo se agrega una terminación como -teen o -ty (como, por ejemplo, 6 
+                  span.r-3.fst-italic six,
+                  |  16 
+                  span.r-3.fst-italic sixteen 
+                  | y 60 
+                  span.r-3.fst-italic sixty
+                  |), se debe ser muy cuidadoso con la ortografía de los números a la hora de escribirlos, porque algunos sufren cambios que van más allá de su terminación:
+            div
+              .tarjeta.bg--4-claro.p-5
+                h4.text-center Números del once al diecinueve
+                // Añadir archivos de audio
+            div
+              .tarjeta.bg--4-claro.p-5
+                h4.text-center Las centenas
+                p.text-center El uso de números más grandes en inglés se puede simplificar si se aprende a leerlos en lugar de memorizarlos. 
+                  br
+                  br
+                  |Los números del 100 al 999 siguen una lógica bastante sencilla.
+                .row.justify-content-center.mb-3
+                  .col-lg-6
+                  .col-lg-6
+                    p 
+                      span.r-3.fst-italic One 
+                      | → cantidad de centenas (1 sola centena).
+                      br
+                      span.r-3.fst-italic Hundred 
+                      | → palabra para las centenas en inglés.
+                .row.justify-content-center.mb-3
+                  .col-lg-6
+                  .col-lg-6
+                    p 
+                      span.r-3.fst-italic Five
+                      | → 5 centenas.
+                      br
+                      span.r-3.fst-italic Hundred 
+                      | → palabra para las centenas en inglés.
+                .row.justify-content-center.mb-3
+                  .col-lg-6
+                  .col-lg-6
+                    p 
+                      span.r-3.fst-italic Eight  
+                      | → 8 centenas.
+                      br
+                      span.r-3.fst-italic Hundred 
+                      | → palabra para las centenas en inglés. 
+            div
+              .tarjeta.bg--4-claro.p-5
+                h4.text-center Números del veinte al noventa y nueve
+                p.text-center Para trabajar los números del 20 hasta el 99, se pueden reutilizar los números del 1 al 9 y, de esa manera, sólo memorizar las decenas (20, 30, 40, 50, 60…).
+              // Añadir reproductor 
+            div
+              .tarjeta.bg--4-claro.p-5
+                h4.text-center Ejemplifiquemos las centenas:
+                .tarjeta.color-acento-contenido--borde.p-4.bg-transparent.border-2.mb-3
+                  .row.justify-content-center
+                    .col-lg-6
+                      p.text-center Ahora bien, si se debe hablar de números como el 642, no basta con solo saber leer el 600, es necesario conocer un poco más. El 642 se puede dividir en centenas, decenas y unidades, para facilitar su lectura:
+                    .col-lg-6
+                      p
+                        span.r-3.fst-italic 600 → Six hundred
+                          br
+                          |40 → Forty
+                          br
+                          |2 → Two
+                        br
+                        |Por lo tanto, el 642 en inglés se leería:
+                .tarjeta.color-acento-contenido--borde.p-4.bg-transparent.border-2
+                  .row.justify-content-center
+                    .col-lg-6
+                      p.text-center Lo anterior no aplica cuando las decenas no pasan de 20. Para este caso, se usará como ejemplo el número 214: 
+                    .col-lg-6
+                      p
+                        span.r-3.fst-italic 200 → Two hundred
+                          br
+                          |14 → Fourteen
+                        br
+                        |Así, el número 214 se leería:
+            div
+              .tarjeta.bg--4-claro.p-5
+                h4.text-center.mb-3 Las decenas…
+                p.text-center El número 20 es 
+                  span.r-3.fst-italic “twenty” 
+                  | en inglés, entonces, si queremos mostrar el número 25, solo basta recordar el número 5 que se escribe 
+                  span.r-3.fst-italic “five” 
+                  | y agregarlo, por lo tanto, el número 25 en inglés se leería 
+                  span.r-3.fst-italic twenty-five, 
+                  | y así sucesivamente si se quiere hablar de cualquier número entre 20 y 99. En estos números, solo se debe usar la decena y el número del 1 al 9 correspondiente.
+            div
+              .tarjeta.bg--4-claro.p-5
+                h4.text-center.mb-3 Otros ejemplos:
+                //Añadir audios 
+                p.text-center AHORA, PODEMOS PRACTICAR CON EL NÚMERO DE IDENTIFICACIÓN, TELÉFONO, EDAD…  Y TODO LO QUE SE NOS OCURRA.
+                
+
+            
+
 
 
 
