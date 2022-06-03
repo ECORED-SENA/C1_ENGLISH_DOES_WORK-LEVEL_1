@@ -141,7 +141,7 @@
                         p.mb-0 Buenas noches. Mi nombre es Andrea. Un placer conocerte.
       .col-lg-6
         .tarjeta.bg--3-claro.px-4.py-2.h-100
-          .row.justify-content-center.align-items-center.g-0
+          .row.justify-content-center.align-items-center
             .col-lg-6.col-8
               img(src='@/assets/curso/temas/23.svg')  
             .col-lg-6

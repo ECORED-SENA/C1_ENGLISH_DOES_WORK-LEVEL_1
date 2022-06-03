@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.167" height="30.167" viewBox="0 0 30.167 30.167">
+  <g id="Grupo_82856" data-name="Grupo 82856" transform="translate(-192.756 -158.824)">
+    <circle id="Elipse_4778" data-name="Elipse 4778" cx="14" cy="14" r="14" transform="translate(193.756 159.991)" fill="none" stroke="#e1e8ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Trazado_115697" data-name="Trazado 115697" d="M224.176,159.824a14.167,14.167,0,0,1,14.167,14.167" transform="translate(-16.421 0)" fill="none" stroke="#ff5f65" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle id="Elipse_4779" data-name="Elipse 4779" cx="10.68" cy="10.68" r="10.68" transform="translate(197.076 163.311)" fill="#ff5f65"/>
+    <g id="herramienta-de-audio-con-altavoz" transform="translate(200.67 158.865)">
+      <path id="Trazado_115694" data-name="Trazado 115694" d="M7.089,19.609a.643.643,0,0,1-1.054.5L2.517,17.19H.643A.643.643,0,0,1,0,16.546V13.983a.644.644,0,0,1,.643-.644H2.517l3.518-2.915a.644.644,0,0,1,1.054.5v8.689ZM9.562,18.6l-.046,0a.643.643,0,0,1-.455-.188l-.086-.086a.643.643,0,0,1-.062-.838,3.741,3.741,0,0,0-.1-4.585.643.643,0,0,1,.044-.86l.086-.086a.629.629,0,0,1,.487-.187.644.644,0,0,1,.466.235,5.153,5.153,0,0,1,.134,6.338A.644.644,0,0,1,9.562,18.6Zm2.66,1.988a.644.644,0,0,1-.465.228H11.73a.643.643,0,0,1-.455-.188l-.085-.085a.644.644,0,0,1-.037-.869,6.857,6.857,0,0,0-.114-8.959.644.644,0,0,1,.026-.881l.084-.085a.626.626,0,0,1,.474-.189.643.643,0,0,1,.462.216,8.262,8.262,0,0,1,.135,10.812Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>
