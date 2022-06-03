@@ -367,7 +367,7 @@
       .col-lg-4
         img(data-aos='zoom-in-up')(src='@/assets/curso/temas/42.jpg', alt='Texto que describa la imagen').w-100
       .col-lg-8
-        .tarjeta.bg-tarjeta-v.p-5(data-aos='zoom-in-up')
+        .tarjeta.bg-tarjeta-v.px-5.py-3(data-aos='zoom')
           SlyderA(tipo='b')
             div
               .tarjeta.bg--4-claro.p-5
