@@ -475,7 +475,7 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    .row.justify-content-center.align-items-end
+    .row.justify-content-center.align-items-end.mb-5
       .col-lg-4(data-aos='fade-right').mb-3.mb-lg-0
         img(src='@/assets/curso/temas/13.png', alt='Texto que describa la imagen' wi)
         .tarjeta.color-secundario.rounded-0.p-3
@@ -484,6 +484,144 @@
             span.fst-italic.r-3 Don´t forget
       .col-lg-4(data-aos='fade-left')
         p Las contracciones hacen que las palabras sean <b>más cortas y fáciles de pronunciar</b>, por lo cual se le da un tono informal al mensaje que se quiere transmitir. Una regla general <b>es la de evitar usar contracciones en contextos formales</b>, como pueden ser conversaciones, documentos y discursos académicos, oficiales o laborales.
+    h3(data-aos='fade-right') Estructuras en presente simple, verbo ser o estar
+    p.mb-5(data-aos='fade-right') Ahora, dentro de las estructuras del verbo ser o estar y sus conjugaciones, se hará uso del presente simple para determinar de manera correcta el sujeto y complemento de una oración: 
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg--1-claro")
+      .row(titulo="Afirmativo +").px-5
+        .col-md-4.mb-4.mb-md-0
+          figure
+            img.rounded-3(src='@/assets/curso/temas/14.jpg', alt='Texto que describa la imagen')
+        .col-md-8
+          p Cuando se usan frases afirmativas, solo se debe tener en cuenta la correcta conjugación del verbo to be dependiendo del sujeto, y luego agregar el complemento de la oración:
+          .tabla-a.color-acento-botones.mb-5
+            table.border-0
+              thead
+                tr
+                  th(colspan='3').text-white.fw-bold.bg-2 Afirmativa → Gloria es una ingeniera.
+              tbody
+                tr.fw-bold.bg--2-claro
+                  td Sujeto
+                  td Verbo to be
+                  td Complemento de la oración
+                tr.fst-italic.bg--3-claro
+                  td
+                    span.r-3 Gloria
+                  td
+                    span.r-3 is
+                  td
+                    span.r-3 an engineer.
+          p.ps-4.fw-bold  Por ejemplo:
+          .tarjeta.bg-white.p-5.tarjeta-apple.ms-lg-5
+            .tarjeta-apple__img: img(src='@/assets/curso/temas/15.svg', alt='Texto que describa la imagen')
+            .row.justify-content-center.mb-3
+              .col-lg-6
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+                p.ms-3 Yo estoy listo.
+              .col-lg-6
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+                p.ms-3 Tu eres alto.
+            .row.justify-content-center
+              .col-lg-6
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+                p.ms-3 Sandra es una doctora.
+              .col-lg-6
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+                p.ms-3 Mis padres están en Cali.
+      .row(titulo="Negativo -").px-5
+        .col-md-4.mb-4.mb-md-0
+          figure
+            img.rounded-3(src='@/assets/curso/temas/16.jpg', alt='Texto que describa la imagen')
+        .col-md-8
+          p Para las frases negativas, se debe agregar la partícula de negación 
+            span.r-3.fst-italic not 
+            | después del verbo <b><em>to be.</em></b>
+          .tabla-a.color-acento-botones.mb-5
+            table.border-0
+              thead
+                tr
+                  th(colspan='3').text-white.fw-bold.bg-2 Negativa → Gloria no es una ingeniera
+              tbody
+                tr.fw-bold.bg--2-claro
+                  td Sujeto
+                  td Verbo to be + not
+                  td Complemento de la oración
+                tr.fst-italic.bg--3-claro
+                  td
+                    span.r-3 Gloria
+                  td
+                    span.r-3 is not
+                  td
+                    span.r-3 an engineer.
+          p.mb-3 En las oraciones negativas, también se pueden hacer contracciones entre el verbo to be y la negación not (con todas las formas del verbo to be, excepto con “am”).
+          p.ps-4.fw-bold  Por ejemplo:
+          .tarjeta.bg-white.p-5
+            .row.justify-content-center.mb-3
+              .col-lg-6
+                p Yo <b>no estoy</b> listo
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+                p.ms-3
+                  span.r-2.fst-italic  (“I amn’t read” X es incorrecto).
+              .col-lg-6
+                p.ms-3 Tú <b>no eres</b> alto.
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+            .row.justify-content-center
+              .col-lg-6
+                p.ms-3 Ella <b>no es</b> una doctora.
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+              .col-lg-6
+                p.ms-3 Ellos <b>no están</b> en Cali.
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+      .row(titulo="Interrogativo ?").px-5
+        .col-md-4.mb-4.mb-md-0
+          figure
+            img.rounded-3(src='@/assets/curso/temas/17.jpg', alt='Texto que describa la imagen')
+        .col-md-8
+          p Para las frases interrogativas, se debe cambiar el orden de la estructura. A diferencia del español, en que la oración es la misma que la afirmativa y solo se agregan los signos de interrogación, a nivel escrito, o se cambia la entonación de la frase, a nivel oral, en inglés, se intercambia el orden verbo to be y el sujeto.
+          .tabla-a.color-acento-botones.mb-5
+            table.border-0
+              thead
+                tr
+                  th(colspan='3').text-white.fw-bold.bg-2 Interrogativa → ¿Gloria es una ingeniera?
+              tbody
+                tr.fw-bold.bg--2-claro
+                  td Verbo to be
+                  td Sujeto
+                  td Complemento de la oración + ?
+                tr.fst-italic.bg--3-claro
+                  td
+                    span.r-3 Is
+                  td
+                    span.r-3 Gloria
+                  td
+                    span.r-3 an engineer?.
+          p.mb-3 También se debe tener en cuenta que, a nivel escrito, en inglés se usa un solo signo de interrogación al final de la pregunta, mientras que en español se usan dos (uno al principio de la oración y otro al final).
+          p.ps-4.fw-bold  Por ejemplo:
+          .tarjeta.bg-white.p-5
+            .row.justify-content-center.mb-3
+              .col-lg-6
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+                p.ms-3 ¿Yo estoy listo?
+              .col-lg-6
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+                p.ms-3 ¿Tú eres alto?
+            .row.justify-content-center
+              .col-lg-6
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+                p.ms-3 ¿Sandra es una doctora?
+              .col-lg-6
+                img(src='@/assets/curso/temas/ejemplo4.svg', alt='Texto que describa la imagen').mb-3
+                p.ms-3 ¿Mis padres están en Cali?
+
+
+
+
 </template>
 
 <script>
@@ -516,4 +654,8 @@ export default {
 .tabs-a__tab__selected
   .tabs-a__tab__text
       color: $white !important
+.bg-2
+  background-color: $color-secundario
+.acordion__activo
+  background: #c4d1ff
 </style>
