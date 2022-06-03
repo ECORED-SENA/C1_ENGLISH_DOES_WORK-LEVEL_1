@@ -24,14 +24,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Categorías gramaticales básicas',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Artículos definidos e indefinidos',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Sustantivos comunes y propios relacionados',
+            hash: 't_1_2',
           },
         ],
       },
@@ -40,22 +46,42 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'La persona gramatical y verbo <em>"to be</em>"',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Greetings and farewells',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Vocabulary: Let´s start ',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Pronunciación: abecedario',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: '<em>Colors / Colours</em>',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Números en inglés',
+            hash: 't_4_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -99,32 +125,74 @@ export default {
   },
   complementario: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
+      tema: 'Categorías gramaticales básicas',
+      referencia:
+        'Habla Inglés con Oliver. (2020). Artículos Definidos e Indefinidos en Inglés [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=u9fuPGgvLB8',
     },
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'La persona gramatical y verbo "TO BE”',
+      referencia:
+        'Equipo académico – Teaching Centre in Colombia. (2021). Aprende cuándo y cómo usar el verbo to be en inglés. British Council Colombia. ',
+      tipo: 'Artículo Web',
+      link: 'https://www.britishcouncil.co/blog/aprende-ingles/verbo-to-be',
+    },
+    {
+      tema: 'Greetings and farewells',
+      referencia:
+        'English Flux. (2018). Greetings and Farewells in English. Basic Phrases in English [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=EvbhKINYrPg',
+    },
+    {
+      tema: 'Vocabulary: Let´s start',
+      referencia: 'Inglés.com. (s. f.). British Council. ',
+      tipo: 'Página Web',
+      link: 'https://www.ingles.com/pronunciacion/british%20council',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: '<em>Alphabet</em>/ Alfabeto',
+      significado:
+        'un sistema de signos, señales, conjunto de letras u otros caracteres con los que se escriben uno o varios idiomas, especialmente si estos signos están ordenados de alguna manera particular.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: '<em>Article </em> / Artículo',
+      significado:
+        'Se hace referencia en el contexto de la gramática a cualquiera de un pequeño conjunto de palabras o afijos (en el idioma inglés, tenemos, por ejemplo, a, an y the) usados con sustantivos para limitar o dar definición a la aplicación de ese sustantivo.',
+    },
+    {
+      termino: '<em>Noun</em> Sustantivo',
+      significado:
+        'cualquier tipo de palabra que se pueda usar como sujeto de un verbo en una oración. En español, varían en número (singular o plural) y en género (femenino o masculino), pero en inglés solo varían en número. También se pueden reemplazar con un pronombre y pueden referirse a una persona, animal, objeto, lugar, actividad o concepto abstracto.',
+    },
+    {
+      termino: '<em>Pronoun</em> /Pronombre',
+      significado:
+        'conjunto de palabras como, por ejemplo: yo, ella, él, usted, eso, nosotros o ellos, que en un idioma se usan como sustitutos de sustantivos o frases nominales y cuyos referentes se nombran o entienden en el contexto; estos pueden ser pronombres de sujeto o pronombres de objeto, pero también existen otros tipos, como pronombres posesivos, pronombres reflexivos, etc.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'Equipo académico - Teaching Centre in Colombia. (2021). Aprende cuándo y cómo usar el verbo to be en inglés. British Council Colombia.',
+      link: 'https://www.britishcouncil.co/blog/aprende-ingles/verbo-to-be',
+    },
+    {
+      referencia:
+        'English Flux. (2018). Greetings and Farewells in English. Basic Phrases in English [Video]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=EvbhKINYrPg',
+    },
+    {
+      referencia:
+        'Habla Inglés con Oliver. (2020). Artículos Definidos e Indefinidos en Inglés [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=u9fuPGgvLB8',
+    },
+    {
+      referencia: 'Inglés.com. (s. f.). British Council',
+      link: 'https://www.ingles.com/pronunciacion/british%20council',
     },
   ],
   creditos: {
@@ -142,6 +210,28 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Michelle Manuela Pérez Hernández',
+        cargo: 'Experta Temática',
+        centro:
+          'CENIGRAF - Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital  ',
+      },
+      {
+        nombre: 'Óscar Absalón Guevara',
+        cargo: 'Diseñador instruccional',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios – CIES - Regional Santander',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Asesora Metodológica',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrector de Estilo',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -151,7 +241,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuly Andrea Rey Quiñonez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -163,7 +253,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Camilo Andres Bolaño Rey',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

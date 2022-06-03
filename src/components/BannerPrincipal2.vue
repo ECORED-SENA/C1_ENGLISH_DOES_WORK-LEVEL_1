@@ -18,9 +18,9 @@
 
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
         img(:src="globalData.imagenBannerPrincipal")
-    //- .imagen_flotante_1.d-none.d-lg-block: img(src="@/assets/curso/portada/float1.png")
-    //- .imagen_flotante_2.d-none.d-lg-block: img(src="@/assets/curso/portada/float2.png")
-    //- .imagen_flotante_3.d-none.d-lg-block: img(src="@/assets/curso/portada/float3.png")
+    .imagen_flotante_1.d-none.d-lg-block: img(src="@/assets/curso/portada/float1.svg")
+    .imagen_flotante_2.d-none.d-lg-block: img(src="@/assets/curso/portada/float2.svg")
+    .imagen_flotante_3.d-none.d-lg-block: img(src="@/assets/curso/portada/float3.svg")
     //- .imagen_flotante_4.d-none.d-lg-block: img(src="@/assets/curso/portada/float4.png")
     //- .imagen_flotante_5.d-none.d-lg-block: img(src="@/assets/curso/portada/float5.png")
     //- .imagen_flotante_6.d-none.d-lg-block: img(src="@/assets/curso/portada/float6.png")
@@ -96,7 +96,7 @@ export default {
           padding-right: 3rem!important
 
   &__img
-    animation: scale 5s ease-in-out infinite alternate
+    animation: scale 10s ease-in-out infinite alternate
     width: 40%
     @if $banner-principal-img-y == 'arriba'
       align-self: flex-start
@@ -119,24 +119,24 @@ export default {
 
 .imagen_flotante
   &_1
-    animation: float1 3s ease-in-out infinite alternate
+    animation: move 3s ease-in-out infinite alternate
     position: absolute
     width: 69px
-    top: 33%
-    left: 59%
+    top: 10%
+    left: 65%
   &_2
-    animation: float2 3.5s ease-in-out infinite alternate
+    animation: float1 3.5s ease-in-out infinite alternate, scale 3s ease-in-out infinite alternate
     position: absolute
     width: 33,55px
     top: 45%
     box-shadow:
-    left: 82%
+    left: 60%
   &_3
     animation: float1 3.8s ease-in-out infinite alternate
     position: absolute
-    width: 120,47px
-    bottom: 18%
-    left: 60%
+    width: 120px
+    top: 7%
+    left: 79%
   &_4
     animation: float1 4s ease-in-out infinite alternate
     position: absolute
@@ -192,10 +192,16 @@ export default {
     transform: translateX(0px)
 @keyframes scale
   0%
-    transform: scale(1.01)
+    transform: scale(1.1)
 
   100%
     transform: scale(1)
+@keyframes move
+  0%
+    transform: translate(0%, 0%) rotate(0deg)
+
+  100%
+    transform: translate(80%, -30%) rotate(30deg)
 
 
 @media (max-width: $bp-max-md)
