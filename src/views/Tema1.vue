@@ -115,8 +115,15 @@
                     span.fst-italic.r-3 The cats 
                     |/ Las gatas - Los gatos
           p.fw-bold Por ejemplo: 
-          figure.mb-5
-            img(src='@/assets/curso/temas/ejemplo.png', alt='Texto que describa la imagen')
+          .tarjeta.bg-white.ps-5.p-4.tarjeta-apple.ms-lg-5.mb-5
+            .tarjeta-apple__img: img(src='@/assets/curso/temas/15.svg', alt='Texto que describa la imagen')
+            TarjetaAudio.color-acento-contenido.mb-3(
+              texto="I need the biology book and the summary sheets"
+              :audio="require('@/assets/audio/1.mp3')"
+              @audio-hover="mostrarIndicadorTarjetaAudio = false"
+            )
+              .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+            p.mb-3 Necesito <b>el</b> libro de biología Y las hojas de resumen
           p.mb-3 En la oración anterior se muestra que no se necesita un libro cualquiera sino un libro en particular, el de biología.
       .col-lg-6
         .tarjeta.color-primario.bg-claro.p-5.h-100
@@ -165,8 +172,23 @@
                     span.fst-italic.r-3 An umbrella 
                     | / Un paraguas
           p.fw-bold Por ejemplo: 
-          figure.mb-5
-            img(src='@/assets/curso/temas/ejemplo.png', alt='Texto que describa la imagen')
+          .tarjeta.bg-white.ps-5.p-4.tarjeta-apple.ms-lg-5.mb-5
+            .tarjeta-apple__img: img(src='@/assets/curso/temas/15.svg', alt='Texto que describa la imagen')
+            .row
+              .col-lg-6
+                TarjetaAudio.color-acento-contenido.mb-3(
+                  texto="I need a book."
+                  :audio="require('@/assets/audio/2.mp3')"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                )
+                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                p.mb-3 Necesito <b>un</b> libro.
+              .col-lg-6
+                TarjetaAudio.color-acento-contenido.mb-3(
+                  texto="I need an eraser."
+                  :audio="require('@/assets/audio/3.mp3')"
+                )
+                p.mb-3 Necesito <b>un</b> borrador.
     p.mb-5(data-aos='fade-right') Cuando se va a hacer referencia de forma no específica a más de un sustantivo se puede usar 
       span.fst-italic.r-3 some 
       | para hacer las veces de 
@@ -217,7 +239,15 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
         p.fw-bold Por ejemplo: 
-        img(src='@/assets/curso/temas/ejemplo2.svg', alt='Texto que describa la imagen').mb-3.mb-lg-0
+        .tarjeta.bg-violeta.ps-5.p-4.tarjeta-apple.ms-lg-5.mb-5
+          .tarjeta-apple__img: img(src='@/assets/curso/temas/libro.svg', alt='Texto que describa la imagen')
+          TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+            texto="I need a book and some sheets."
+            :audio="require('@/assets/audio/4.mp3')"
+            @audio-hover="mostrarIndicadorTarjetaAudio = false"
+          )
+            .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+          p.mb-0 Necesito <b>un</b> libro y unas (algunas) hojas.
       .col-lg-5
         p.mb-0 En la oración anterior, se muestra que no se necesita un libro en particular, en este caso, cualquier libro puede ser útil.
     Separador
@@ -335,14 +365,31 @@
     img(src='@/assets/curso/temas/7.svg', alt='Texto que describa la imagen')
     .row.justify-content-center.mb-5.g-0
       .col-lg-4
-        .tarjeta.color-acento-contenido.bg-claro.p-5.rounded-0
-          img(src='@/assets/curso/temas/ejemplo3.svg', alt='Texto que describa la imagen')
+        .tarjeta.color-acento-contenido.bg-claro.p-4.rounded-0.h-100
+          .tarjeta.bg-white.p-4
+            TarjetaAudio.color-acento-contenido.mb-3(
+            texto="Mom, can you come with me to the doctor's office?"
+            :audio="require('@/assets/audio/5.mp3')"
+            @audio-hover="mostrarIndicadorTarjetaAudio = false"
+        )
+            .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+            p.mb-0 Mamá, ¿puedes venir conmigo al consultorio del doctor?
       .col-lg-4
-        .tarjeta.bg-contenido-claro.p-5.rounded-0
-          img(src='@/assets/curso/temas/ejemplo3.svg', alt='Texto que describa la imagen')
+        .tarjeta.bg-contenido-claro.p-4.rounded-0.h-100
+          .tarjeta.bg-white.p-4
+            TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+            texto="How are you doing, Doctor? Nice to meet you."
+            :audio="require('@/assets/audio/6.mp3')"
+          )
+            p.mb-0 ¿Cómo está, doctor? Es un placer conocerlo.
       .col-lg-4
-        .tarjeta.color-acento-contenido.bg-claro.p-5.rounded-0
-          img(src='@/assets/curso/temas/ejemplo3.svg', alt='Texto que describa la imagen')
+        .tarjeta.color-acento-contenido.bg-claro.p-4.rounded-0.h-100
+          .tarjeta.bg-white.p-4
+            TarjetaAudio.color-acento-contenido.bg-white.mb-3(
+            texto="Ok, Coach. I will follow your advice."
+            :audio="require('@/assets/audio/7.mp3')"
+          )
+            p.mb-0 Muy bien, entrenador. Voy a seguir su consejo.
 
 
 
@@ -354,7 +401,7 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
-    // variables de vue
+    mostrarIndicadorTarjetaAudio: true,
   }),
   mounted() {
     this.$nextTick(() => {

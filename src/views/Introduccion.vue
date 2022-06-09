@@ -11,14 +11,19 @@
     p.mb-5 Bienvenido al componente formativo 
       span.fw-bold Hello! It’s nice to meet you. / ¡Hola! Encantado de conocerte. 
       | En el siguiente video, conocerá la temática que estudiará a lo largo del componente.
-    figure
+    figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    Player
 </template>
 
 <script>
+import Player from '@/components/Player.vue'
 export default {
   name: 'Introduccion',
+  components: {
+    Player,
+  },
   data: () => ({}),
 }
 </script>

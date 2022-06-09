@@ -18,11 +18,88 @@
             .tarjeta-reproductor--izquierda__img
               img(src='@/assets/curso/temas/17.png')
             .row.justify-content-end.t-s
-              .col-7
-                img(src='@/assets/curso/temas/ejemplo4.svg').mb-3
-                p.mb-5 Hola!
-                img(src='@/assets/curso/temas/ejemplo4.svg').mb-3
-                p.mb-5 Buenos días
+              .col-8
+                SlyderE(indicadores="derecha")
+                  div.ps-2
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Hello!"
+                      :audio="require('@/assets/audio/52.mp3')"
+                      )
+                    p.ms-3 Hola!
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Good morning"
+                      :audio="require('@/assets/audio/53.mp3')"
+                      )
+                    p.ms-3 Buenas dias
+                  div.ps-2
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Good afternoon"
+                      :audio="require('@/assets/audio/54.mp3')"
+                      )
+                    p.ms-3 Buenas tardes
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Good evening"
+                      :audio="require('@/assets/audio/55.mp3')"
+                      )
+                    p.ms-3 Buenas noches
+                  div.ps-2
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="It’s an honor to meet you"
+                      :audio="require('@/assets/audio/56.mp3')"
+                      )
+                    p.ms-3 Es un honor conocerlo / 
+                      br
+                      |Es un honor conocerte
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="How do you do?"
+                      :audio="require('@/assets/audio/57.mp3')"
+                      )
+                    p.ms-3 ¿Cómo le va? / 
+                      br
+                      |¿Cómo te va?
+                  div.ps-2
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="How are you doing?"
+                      :audio="require('@/assets/audio/58.mp3')"
+                      )
+                    p.ms-3 ¿Cómo le está yendo?
+                      br
+                      |¿Cómo te está yendo?
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Nice to meet you"
+                      :audio="require('@/assets/audio/59.mp3')"
+                      )
+                    p.ms-3 Gusto en conocerlo
+                  div.ps-2
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="It’s nice to meet you"
+                      :audio="require('@/assets/audio/60.mp3')"
+                      )
+                    p.ms-3 Encantado de conocerlo
+                      br
+                      |Encantado de conocerte
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="What are you doing?"
+                      :audio="require('@/assets/audio/61.mp3')"
+                      )
+                    p.ms-3 ¿Qué está haciendo?
+                      br
+                      |¿Qué estás haciendo?
+                  div.ps-2
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Good to see you"
+                      :audio="require('@/assets/audio/62.mp3')"
+                      )
+                    p.ms-3 Qué bueno verlo
+                      br
+                      |Qué bueno verte
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="How are you?"
+                      :audio="require('@/assets/audio/63.mp3')"
+                      )
+                    p.ms-3 ¿Cómo está?
+                      br
+                      |¿Cómo estás?
       .col-lg-6
         .tarjeta.color-acento-botones.p-5
           .d-flex.justify-content-start
@@ -34,11 +111,77 @@
             .tarjeta-reproductor--derecha__img
               img(src='@/assets/curso/temas/18.png')
             .row.justify-content-start
-              .col-7
-                img(src='@/assets/curso/temas/ejemplo4.svg').mb-3
-                p.mb-5 Hola!
-                img(src='@/assets/curso/temas/ejemplo4.svg').mb-3
-                p.mb-5 ¡Hola!
+              .col-8
+                SlyderE(indicadores="derecha").pe-3
+                  div
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Hi! "
+                      :audio="require('@/assets/audio/64.mp3')"
+                      )
+                    p.ms-3 Hola!
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Howdy!"
+                      :audio="require('@/assets/audio/65.mp3')"
+                      ) 
+                    p.ms-3 ¡Hola!
+                  div
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="What’s up?"
+                      :audio="require('@/assets/audio/66.mp3')"
+                      )
+                    p.ms-3 ¿Qué pasa?
+                      br
+                      |¿Qué más?
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="What’s going on?"
+                      :audio="require('@/assets/audio/67.mp3')"
+                      )
+                    p.ms-3 Qué está sucediendo?
+                      br
+                      |¿Qué pasa?
+                      br
+                      |¿Qué ha pasado?
+                  div
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="How are you?"
+                      :audio="require('@/assets/audio/68.mp3')"
+                      )
+                    p.ms-3 ¿Cómo estás?
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="What’s new?"
+                      :audio="require('@/assets/audio/69.mp3')"
+                      )
+                    p.ms-3 ¿Qué hay de nuevo? 
+                  div
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Long time no see!"
+                      :audio="require('@/assets/audio/70.mp3')"
+                      )
+                    p.ms-3 ¡Mucho tiempo sin verte!
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="How’s life?"
+                      :audio="require('@/assets/audio/71.mp3')"
+                      )
+                    p.ms-3 ¿Qué tal tu vida?
+                  div
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="How is everything?"
+                      :audio="require('@/assets/audio/72.mp3')"
+                      )
+                    p.ms-3 ¿Cómo está todo?
+                      br
+                      |¿Qué tal todo?
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Hey! (Interjections)"
+                      :audio="require('@/assets/audio/73.mp3')"
+                      )
+                    p.ms-3 Ey! (Interjección)
+                  div
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="How are things?"
+                      :audio="require('@/assets/audio/74.mp3')"
+                      )
+                    p.ms-3 ¿Cómo están las cosas?.
     p.mb-5(data-aos='fade-left') Y el último paso en una conversación es despedirse (farewells). Repase a continuación los diferentes tipos de despedidas: 
     .row.justify-content-center.mb-5
       .col-lg-6.mb-3.mb-lg-0
@@ -49,15 +192,72 @@
               p Despedidas formales
           .tarjeta.bg-white.p-5.tarjeta-reproductor--izquierda
             .tarjeta-reproductor--izquierda__img
-              img(src='@/assets/curso/temas/19.svg')
+              img(src='@/assets/curso/temas/19.svg' style='width: 250px;')
             .row.justify-content-end
-              .col-7
-                img(src='@/assets/curso/temas/ejemplo4.svg').mb-3
-                p.mb-5 Adiós
-                img(src='@/assets/curso/temas/ejemplo4.svg').mb-3
-                p.mb-5 Adiós
+              .col-8
+                SlyderE(indicadores="derecha")
+                  div.ps-2
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Goodbye"
+                      :audio="require('@/assets/audio/75.mp3')"
+                      )
+                    p.ms-3 Adiós
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Farewell"
+                      :audio="require('@/assets/audio/76.mp3')"
+                      )
+                    p.ms-3 Adiós
+                  div.ps-2
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Good night"
+                      :audio="require('@/assets/audio/77.mp3')"
+                      )
+                    p.ms-3 Buenas noches
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Take care"
+                      :audio="require('@/assets/audio/78.mp3')"
+                      )
+                    p.ms-3 Cuídese / Cuídate
+                  div.ps-2
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="I look forward to seeing you again"
+                      :audio="require('@/assets/audio/79.mp3')"
+                      )
+                    p.ms-3 Espero verlo de nuevo
+                      br
+                      |Espero verte de nuevo
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="It was nice to see you!"
+                      :audio="require('@/assets/audio/80.mp3')"
+                      )
+                    p.ms-3 ¡Fue agradable verlo!
+                      br
+                      |¡Fue agradable verte!
+                  div.ps-2
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="It was nice to meet you!"
+                      :audio="require('@/assets/audio/81.mp3')"
+                      )
+                    p.ms-3 ¡Fue un placer conocerlo!
+                      br
+                      |¡Fue un placer conocerte!
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Have a good day"
+                      :audio="require('@/assets/audio/82.mp3')"
+                      )
+                    p.ms-3 Que tenga un buen día
+                      br
+                      |Que tengas un buen día
+                  div.ps-2
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Have a great day!"
+                      :audio="require('@/assets/audio/83.mp3')"
+                      )
+                    p.ms-3 ¡Que tenga un gran día!
+                      br
+                      |¡Que tengas un gran día!
       .col-lg-6
-        .tarjeta.color-secundario.p-5
+        .tarjeta.color-secundario.p-5.h-100
           .d-flex.justify-content-start
             .texts
               h2.fst-italic.mb-1
@@ -67,11 +267,63 @@
             .tarjeta-reproductor--derecha__img
               img(src='@/assets/curso/temas/20.svg')
             .row.justify-content-start.t-s
-              .col-7
-                img(src='@/assets/curso/temas/ejemplo4.svg').mb-3
-                p.mb-5 ¡Chao!
-                img(src='@/assets/curso/temas/ejemplo4.svg').mb-3
-                p.mb-5 ¡Nos vemos! 
+              .col-8
+                SlyderE(indicadores="derecha").pe-3
+                  div
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Bye!"
+                      :audio="require('@/assets/audio/84.mp3')"
+                      )
+                    p.ms-3 ¡Chao!
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="See ya!"
+                      :audio="require('@/assets/audio/85.mp3')"
+                      )
+                    p.ms-3 ¡Nos vemos!
+                  div
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="See you later"
+                      :audio="require('@/assets/audio/86.mp3')"
+                      )
+                    p.ms-3 Hasta luego
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Bye-bye!"
+                      :audio="require('@/assets/audio/87.mp3')"
+                      )
+                    p.ms-3 ¡Adiós!
+                  div
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Talk to you later"
+                      :audio="require('@/assets/audio/88.mp3')"
+                      )
+                    p.ms-3 Hablamos luego
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="See you again soon"
+                      :audio="require('@/assets/audio/89.mp3')"
+                      )
+                    p.ms-3 Nos vemos pronto
+                  div
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Catch you later!"
+                      :audio="require('@/assets/audio/90.mp3')"
+                      )
+                    p.ms-3 ¡Te veo luego!
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="Have a good one!"
+                      :audio="require('@/assets/audio/91.mp3')"
+                      )
+                    p.ms-3 ¡Que tengas un buen día!
+                  div
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="I’m off<br>I’m heading off"
+                      :audio="require('@/assets/audio/92.mp3')"
+                      )
+                    p.ms-3 Me voy
+                    TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
+                      texto="I’ve got to go<br>I’ve gotta go"
+                      :audio="require('@/assets/audio/93.mp3')"
+                      )
+                    p.ms-3 Me tengo que ir
     .titulo-sexto.color-acento-contenido
       h5 Tabla 5
       span Recordatorio 
@@ -230,19 +482,23 @@ export default {
   &--izquierda
     position: relative
     &__img
+      width: 300px
+
       position: absolute
       height: 100%
       left: 0
       bottom: 0
-      transform: translateX(-20%) translateY(-10%)
+      transform: translateX(-30%) translateY(0%)
   &--derecha
     position: relative
     &__img
+      width: 300px
+      margin: 0 auto
       position: absolute
       height: 100%
       right: 0
       bottom: 0
-      transform: translateX(20%) translateY(-10%)
+      transform: translateX(30%) translateY(10%)
 .franja
   position: relative
 
