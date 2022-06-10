@@ -132,7 +132,7 @@
                 br
                 | <b>Ellos</b> trabajan en el hospital.
     .row.justify-content-center.align-items-end.mb-5
-      .col-lg-4(data-aos='fade-right').mb-3.mb-lg-0
+      .col-lg-4.col-8(data-aos='fade-right').mb-3.mb-lg-0
         img(src='@/assets/curso/temas/9.png', alt='Texto que describa la imagen')
         .tarjeta.color-secundario.rounded-0.p-3
           p.mb-0 Se debe tener en cuenta que:
@@ -541,7 +541,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center.align-items-end.mb-5
-      .col-lg-4(data-aos='fade-right').mb-3.mb-lg-0
+      .col-lg-4.col-8(data-aos='fade-right').mb-3.mb-lg-0
         img(src='@/assets/curso/temas/13.png', alt='Texto que describa la imagen' wi)
         .tarjeta.color-secundario.rounded-0.p-3
           p.text-center No olvidar:

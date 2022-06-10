@@ -8,7 +8,7 @@
       h1 Greetings and farewells
     p.mb-5(data-aos='fade-right') El primer paso que se da en una conversación es saludar, por ende, inicialmente, para comunicarse en inglés, es importante aprender los diferentes tipos de saludos (greetings) y determinar bajo qué contextos pueden utilizarse: 
     .row.justify-content-center.mb-5
-      .col-lg-6.mb-3.mb-lg-0
+      .col-xl-6.mb-3.mb-xl-0
         .tarjeta.color-secundario.p-5
           .d-flex.justify-content-center
             .texts
@@ -16,7 +16,7 @@
               p Saludos informales
           .tarjeta.bg-white.p-5.tarjeta-reproductor--izquierda
             .tarjeta-reproductor--izquierda__img
-              img(src='@/assets/curso/temas/17.png')
+              img(src='@/assets/curso/temas/17.png' style='width: 90% ; transform: translateX(-1%)')
             .row.justify-content-end.t-s
               .col-8
                 SlyderE(indicadores="derecha")
@@ -100,7 +100,7 @@
                     p.ms-3 ¿Cómo está?
                       br
                       |¿Cómo estás?
-      .col-lg-6
+      .col-xl-6.mb-3.mb-xl-0
         .tarjeta.color-acento-botones.p-5
           .d-flex.justify-content-start
             .texts
@@ -109,7 +109,7 @@
               p Saludos informales
           .tarjeta.bg-white.p-5.tarjeta-reproductor--izquierda
             .tarjeta-reproductor--derecha__img
-              img(src='@/assets/curso/temas/18.png')
+              img(src='@/assets/curso/temas/18.png' style='width: 90% ; transform: translateX(10%)')
             .row.justify-content-start
               .col-8
                 SlyderE(indicadores="derecha").pe-3
@@ -184,8 +184,8 @@
                     p.ms-3 ¿Cómo están las cosas?.
     p.mb-5(data-aos='fade-left') Y el último paso en una conversación es despedirse (farewells). Repase a continuación los diferentes tipos de despedidas: 
     .row.justify-content-center.mb-5
-      .col-lg-6.mb-3.mb-lg-0
-        .tarjeta.color-acento-contenido.p-5
+      .col-xl-6.mb-3.mb-lg-0
+        .tarjeta.color-acento-contenido.p-5.mb-3.mb-xl-0
           .d-flex.justify-content-center
             .texts
               h2.fst-italic.mb-1.text-white Formal farewells 
@@ -256,7 +256,7 @@
                     p.ms-3 ¡Que tenga un gran día!
                       br
                       |¡Que tengas un gran día!
-      .col-lg-6
+      .col-xl-6
         .tarjeta.color-secundario.p-5.h-100
           .d-flex.justify-content-start
             .texts

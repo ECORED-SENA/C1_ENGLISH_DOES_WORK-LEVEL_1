@@ -439,7 +439,7 @@
           SlyderA(tipo='b')
             div
               .tarjeta.bg--4-claro.p-5
-                h4.text-center El número cero (0) puede llamarse de dos formas:
+                h4.text-center Números del cero al diez 
                 .row.justify-content-center.mb-5
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
@@ -493,6 +493,7 @@
                       )
             div
               .tarjeta.bg--4-claro.p-5
+                h4 El número cero (0) puede llamarse de dos formas:
                 p.mb-3 
                   span.r-3.fst-italic Zero / Oh 
                   | (se pronuncia como la letra O del alfabeto) 
