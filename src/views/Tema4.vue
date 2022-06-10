@@ -7,7 +7,7 @@
         span 4
       h1.fst-italic Vocabulary: Let's start
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4(data-aos='zoom-in-up'): img(src='@/assets/curso/temas/38.png')
+      .col-lg-4.mb-3.mb-lg-0(data-aos='zoom-in-up'): img(src='@/assets/curso/temas/38.png')
       .col-lg-8
         p El abecedario, los colores y los números son conceptos básicos necesarios para poder empezar a construir un buen vocabulario en inglés, que será útil para crear y ensamblar ideas o estructuras más complejas.
           br
@@ -222,7 +222,7 @@
       h5 Tabla 7 
       span La Y como vocal y consonante
     .row.justify-content-center.mb-3
-      .col-lg-5
+      .col-lg-5.mb-lg-0.mb-3
         .tarjeta.bg-tarjeta-v.h-100.p-4
           .d-lg-flex.align-items-start
             img(src='@/assets/curso/temas/y.svg' alt='AvatarTop' style='width: 44px').me-3
