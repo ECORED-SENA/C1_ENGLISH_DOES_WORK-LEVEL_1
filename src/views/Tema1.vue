@@ -261,7 +261,7 @@
           p.mb-0 A diferencia del español, en el idioma inglés los sustantivos no tienen género:
       .col-lg-4(data-aos='fade-left')
         p En español, se tienen sustantivos como gato, en género masculino, que habla del individuo macho de la especie, y gata, en género femenino, que habla del individuo hembra de la especie. En inglés, solo se tiene cat, que bien podría referirse a cualquiera de los dos indiscriminadamente.
-    p.mb-5(data-aos='fade-right') Existen varias categorías de sustantivos, como propios, comunes, contables, no contables, concretos, abstractos, compuestos, colectivos, entre otros, los cuales se definen a continuación:
+    p.my-5(data-aos='fade-right') Existen varias categorías de sustantivos, como propios, comunes, contables, no contables, concretos, abstractos, compuestos, colectivos, entre otros, los cuales se definen a continuación:
     .row.justify-content-center.mb-5
       .col-lg-6.mb-3.mb-lg-0
         .tarjeta.color-primario.bg-claro.p-5.h-100(data-aos='zoom-in')

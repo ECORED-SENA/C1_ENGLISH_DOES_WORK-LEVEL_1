@@ -14,11 +14,9 @@
             .texts
               h2.fst-italic.mb-1 Formal Greetings
               p Saludos informales
-          .tarjeta.bg-white.p-5.tarjeta-reproductor--izquierda
-            .tarjeta-reproductor--izquierda__img
-              img(src='@/assets/curso/temas/17.png' style='width: 90% ; transform: translateX(-1%)')
+          .tarjeta.bg-white.p-5.tarjeta-reproductor--izquierda.h-100
             .row.justify-content-end.t-s
-              .col-8
+              .col-12
                 SlyderE(indicadores="derecha")
                   div.ps-2
                     TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
@@ -513,4 +511,8 @@ export default {
     z-index: 0
   .content
     position: inherit
+.slyder__btn
+  background-color: $color-acento-contenido
+  i
+    color: white !important
 </style>

@@ -19,7 +19,7 @@
     p.mb-5(data-aos='fade-right') Inicialmente, el primer paso para conocer la pronunciación y reconocer el inglés como lenguaje de comunicación internacional debe ser el alfabeto. Observe su pronunciación, características y, lo más ideal, practique mientras escucha: 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/4EHf6Z_FhBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5(data-aos='fade-right') Las consonantes son un sonido que se produce cuando el aire es parcialmente bloqueado por alguna parte de la boca o la faringe, creando una turbulencia audible; y una vocal es un sonido que se produce cuando el aire fluye libremente, sin ser bloqueado por ninguna parte de la boca o la faringe, por ende, las vocales se pronuncian con el tracto vocal abierto.
     h3(data-aos='fade-right') Los sonidos en las vocales
     p.mb-5(data-aos='fade-right') Ahora bien, es importante mencionar que, igual que en el español, todas y cada una de las palabras en inglés tienen, al menos, una vocal, por lo que es importante aclarar los sonidos cortos y largos en las vocales:
@@ -284,13 +284,13 @@
       span Colors
     SlyderF.mb-5(columnas="col-lg-1 col-xl-3")
       .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/26.jpg')})`}" style='height: 394px')
-        .tarjeta.bg-white.p-3.w-100
+        .tarjeta.tarjeta-bg.bg-white.p-3.w-100
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/audio/112.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Yellow
             br
             | Amarillo
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/27.jpg')})`}" style='height: 394px')
+      .tarjeta.tarjeta-bg.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/27.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/audio/113.mp3')")
           p.text-center
@@ -298,14 +298,14 @@
             br
             | Naranja
       .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/28.jpg')})`}" style='height: 394px')
-        .tarjeta.bg-white.p-3.w-100
+        .tarjeta.tarjeta-bg.bg-white.p-3.w-100
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/audio/114.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Red
             br
             | Rojo
       .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/29.jpg')})`}" style='height: 394px')
-        .tarjeta.bg-white.p-3.w-100
+        .tarjeta.tarjeta-bg.bg-white.p-3.w-100
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/audio/115.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Pink
@@ -313,7 +313,7 @@
             | Rosado
             br
             | Rosa
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/30.jpg')})`}" style='height: 394px')
+      .tarjeta.tarjeta-bg.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/30.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/audio/116.mp3')")
           p.text-center
@@ -322,42 +322,42 @@
             | Morado
             br
             | Purpura 
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/31.jpg')})`}" style='height: 394px')
+      .tarjeta.tarjeta-bg.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/31.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/audio/117.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Blue
             br
             | Azul
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/32.jpg')})`}" style='height: 394px')
+      .tarjeta.tarjeta-bg.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/32.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/audio/118.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Green
             br
             | Verde
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/33.jpg')})`}" style='height: 394px')
+      .tarjeta.tarjeta-bg.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/33.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/audio/119.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold White
             br
             | Blanco
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/34.jpg')})`}" style='height: 394px')
+      .tarjeta.tarjeta-bg.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/34.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/audio/120.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Black
             br
             | Negro
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/35.jpg')})`}" style='height: 394px')
+      .tarjeta.tarjeta-bg.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/35.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/audio/121.mp3')")
           p.text-center
             span.r-3.fst-italic.fw-bold Brown
             br
             | Marrón
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/36.jpg')})`}" style='height: 394px')
+      .tarjeta.tarjeta-bg.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/36.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/audio/122.mp3')")
           p.text-center
@@ -365,7 +365,7 @@
 
             br
             | Gris
-      .tarjeta.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/37.jpg')})`}" style='height: 394px')
+      .tarjeta.tarjeta-bg.p-4.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/temas/37.jpg')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-contenido.m-auto(:audio="require('@/assets/audio/123.mp3')")
           p.text-center
@@ -584,7 +584,7 @@
                         )
                     .col-lg-6
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
-                      texto="60 → Sixty"
+                      texto="60 → Sixty Eight"
                       :audio="require('@/assets/audio/156.mp3')"
                       )
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
@@ -626,7 +626,7 @@
                         |5: Five
                   .col-lg-4
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
-                        texto="60 → Sixty"
+                        texto="68 → Sixty Eight"
                         :audio="require('@/assets/audio/169.mp3')"
                         )
                       h4.fst-italic 68: Sixty
@@ -859,4 +859,8 @@ export default {
     position: inherit
 .bg-tarjeta-v
   background-color: #6b8dff
+.tarjeta-bg
+  background-repeat: no repeat
+  background-size: cover
+  background-position: center
 </style>

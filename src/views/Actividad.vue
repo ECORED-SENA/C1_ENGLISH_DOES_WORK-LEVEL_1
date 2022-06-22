@@ -2,30 +2,82 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-tasks" titulo="Actividad didáctica")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
-      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
-        .tarjeta.h-100.d-flex.align-items-center.p-4
-          figure
-            img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
-      .col-12.col-md-8.col-lg-9
-        .titulo-segundo
-          h2 Nombre de la actividad
-        p.mb-4 #[b Objetivo] Cras tempus tortor et nisi tincidunt feugiat. Integer lacus ante, venenatis nec fringilla quis, dapibus ut dui. Fusce imperdiet velit a leo sagittis, id scelerisque massa placerat. Duis at dui sed enim euismod pulvinar quis ac ante. Phasellus condimentum sapien nisi, ac facilisis purus tristique ac. Quisque magna est, luctus vitae elit ut, convallis venenatis justo. Nunc pretium elit a nisi tempus sagittis.
-        .tarjeta.actividad.p-3
-          .row.justify-content-around.align-items-center            
-            .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Tipo de actividad
-            .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
-                span Realizar
-                i.fas.fa-puzzle-piece
+    Dialogo.color-primario(:dialogo="dialogo")
+      template(#nombre-actividad) Arrastrar y Soltar
+      template(#titulo-actividad) Greeting the doctor. / Saludando al doctor.
+      template(#descripcion-actividad) Organizar en el orden correcto una conversación.
                 
 </template>
 
 <script>
 export default {
   name: 'Actividad',
+  data() {
+    return {
+      dialogo: {
+        personajes: [
+          {
+            nombre: 'Doctor',
+            img: require('@/assets/curso/temas/doctor.svg'),
+          },
+          {
+            nombre: 'Jonathan',
+            img: require('@/assets/curso/temas/jonathan.svg'),
+          },
+        ],
+        dialogo: [
+          {
+            personaje: 'Jonathan',
+            textoIng: '*** ',
+            textoEsp: 'Hola, doctor. ¿Cómo estás?',
+            audio: require('@/assets/audio/ad/1.mp3'),
+            palabra: 'Hello, Doctor. How are you?',
+          },
+          {
+            personaje: 'Doctor',
+            textoIng: '*** ',
+            textoEsp: 'Buenos días Jonathan .',
+            audio: require('@/assets/audio/ad/2.wav'),
+            palabra: 'Good morning Jonathan.',
+          },
+          {
+            personaje: 'Doctor',
+            textoIng: '***.',
+            textoEsp: 'Estoy bien, ¿cómo estás?',
+            audio: require('@/assets/audio/ad/3.wav'),
+            palabra: 'I am great. How are you doing?',
+          },
+          {
+            personaje: 'Jonathan',
+            textoIng: 'I´m doing very well. I´m feeling better.',
+            textoEsp: 'Estoy muy bien. Me siento mejor.',
+            audio: require('@/assets/audio/ad/4.mp3'),
+          },
+          {
+            personaje: 'Doctor',
+            textoIng: ' ***.',
+            textoEsp: ' ¡Qué gusto verte! Me alegro de que te sientas mejor.',
+            audio: require('@/assets/audio/ad/5.wav'),
+            palabra: ' It was nice to see you! I am glad you feel better. ',
+          },
+          {
+            personaje: 'Jonathan',
+            textoIng: ' ***.',
+            textoEsp: 'Gracias Doctor. ¡Qué tengas un lindo día! ',
+            audio: require('@/assets/audio/ad/6.mp3'),
+            palabra: ' Thank you Doctor. Have a great day!  ',
+          },
+          {
+            personaje: 'Doctor',
+            textoIng: ' ***.',
+            textoEsp: 'Adiós.',
+            audio: require('@/assets/audio/ad/7.wav'),
+            palabra: ' Goodbye. ',
+          },
+        ],
+      },
+    }
+  },
 }
 </script>
 
