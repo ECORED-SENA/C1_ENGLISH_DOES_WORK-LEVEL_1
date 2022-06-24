@@ -46,7 +46,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'La persona gramatical y verbo <em>"to be</em>"',
+        titulo: 'La persona gramatical y verbo <em>to be</em>',
         desarrolloContenidos: true,
       },
       {
@@ -60,7 +60,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Vocabulary: Let´s start ',
+        titulo: 'Vocabulary: Let&#8217s start ',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -72,7 +72,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.2',
-            titulo: '<em>Colors / Colours</em>',
+            titulo: '<em>Colors/colours</em>',
             hash: 't_4_2',
           },
           {
@@ -154,22 +154,22 @@ export default {
   ],
   glosario: [
     {
-      termino: '<em>Alphabet</em>/ Alfabeto',
+      termino: '<em>Alphabet</em>/alfabeto',
       significado:
         'un sistema de signos, señales, conjunto de letras u otros caracteres con los que se escriben uno o varios idiomas, especialmente si estos signos están ordenados de alguna manera particular.',
     },
     {
-      termino: '<em>Article </em> / Artículo',
+      termino: '<em>Article</em>/artículo',
       significado:
         'Se hace referencia en el contexto de la gramática a cualquiera de un pequeño conjunto de palabras o afijos (en el idioma inglés, tenemos, por ejemplo, a, an y the) usados con sustantivos para limitar o dar definición a la aplicación de ese sustantivo.',
     },
     {
-      termino: '<em>Noun</em> Sustantivo',
+      termino: '<em>Noun</em>/sustantivo',
       significado:
         'cualquier tipo de palabra que se pueda usar como sujeto de un verbo en una oración. En español, varían en número (singular o plural) y en género (femenino o masculino), pero en inglés solo varían en número. También se pueden reemplazar con un pronombre y pueden referirse a una persona, animal, objeto, lugar, actividad o concepto abstracto.',
     },
     {
-      termino: '<em>Pronoun</em> /Pronombre',
+      termino: '<em>Pronoun</em>/pronombre',
       significado:
         'conjunto de palabras como, por ejemplo: yo, ella, él, usted, eso, nosotros o ellos, que en un idioma se usan como sustitutos de sustantivos o frases nominales y cuyos referentes se nombran o entienden en el contexto; estos pueden ser pronombres de sujeto o pronombres de objeto, pero también existen otros tipos, como pronombres posesivos, pronombres reflexivos, etc.',
     },
@@ -177,7 +177,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Equipo académico - Teaching Centre in Colombia. (2021). Aprende cuándo y cómo usar el verbo to be en inglés. British Council Colombia.',
+        'Equipo académico-Teaching Centre in Colombia. (2021). Aprende cuándo y cómo usar el verbo to be en inglés. British Council Colombia.',
       link: 'https://www.britishcouncil.co/blog/aprende-ingles/verbo-to-be',
     },
     {
@@ -208,29 +208,29 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Michelle Manuela Pérez Hernández',
         cargo: 'Experta Temática',
         centro:
-          'CENIGRAF - Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital  ',
+          'CENIGRAF - Centro para la Industria de la Comunicación Gráfica-Regional Distrito Capital  ',
       },
       {
         nombre: 'Óscar Absalón Guevara',
         cargo: 'Diseñador instruccional',
         centro:
-          'Centro de la Industria, la Empresa y los Servicios – CIES - Regional Santander',
+          'Centro de la Industria, la Empresa y los Servicios–CIES - Regional Santander',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',
         cargo: 'Asesora Metodológica',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital ',
+        centro: 'Centro de Diseño y Metrología-Regional Distrito Capital ',
       },
       {
         nombre: 'Darío González',
         cargo: 'Corrector de Estilo',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        centro: 'Centro de Diseño y Metrología-Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -238,31 +238,54 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Yuly Andrea Rey Quiñonez',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
+      },
+      {
+        nombre: 'Oleg Litvin',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Camilo Andres Bolaño Rey',
         cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Lina Marcela Perez ',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
     ],
     gestoresRepositorio: [

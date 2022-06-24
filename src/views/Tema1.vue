@@ -82,8 +82,8 @@
           h3.text-center Artículo definido (determinado): 
             span.r-3.f-4.p-1.fw-bold THE
           p.mb-3 En español, los artículos definidos son 
-            span.fw-bold el / la / los / las 
-            | y varían en número (singular - plural) y en género (femenino - masculino), al igual que lo hacen los sustantivos; pero en el caso del idioma inglés, se cuenta exclusivamente con el artículo definido 
+            span.fw-bold el/la/los/las 
+            | y varían en número (singular-plural) y en género (femenino-masculino), al igual que lo hacen los sustantivos; pero en el caso del idioma inglés, se cuenta exclusivamente con el artículo definido 
             span.fst-italic.r-3 the 
             | para preceder el sustantivo específico al que nos referimos.
           .margin-n
@@ -92,54 +92,54 @@
                 .tarjeta-triangulo--derecha.bg-primario-claro.p-4
                   p 
                     span.fst-italic.r-3 THE 
-                    | no varía en número (singular - plural):
+                    | no varía en número (singular-plural):
                     br
-                    span.fst-italic.r-3 The lemon - The lemons
+                    span.fst-italic.r-3 The lemon-the lemons
                     br
-                    |El limón - Los limones
+                    |El limón-los limones
                     br
-                    span.fst-italic.r-3 The apple - The apples
+                    span.fst-italic.r-3 The apple-the apples
                     br
-                    |La manzana - Las manzanas
+                    |La manzana-las manzanas
               .col-lg-6
                 .tarjeta-triangulo--izquierda.bg-botones-claro.p-4.d-flex.align-items-center
                   p 
                     span.fst-italic.r-3 THE 
                     | no varía en género 
                     br
-                    |(femenino - masculino):
+                    |(femenino-masculino):
                     br
-                    span.fst-italic.r-3 The cat 
-                    |/ La gata - El gato
+                    span.fst-italic.r-3 The cat
+                    |/la gata - El gato
                     br
-                    span.fst-italic.r-3 The cats 
-                    |/ Las gatas - Los gatos
+                    span.fst-italic.r-3 The cats
+                    |/las gatas - Los gatos
           p.fw-bold Por ejemplo: 
           .tarjeta.bg-white.ps-5.p-4.tarjeta-apple.ms-lg-5.mb-5
             .tarjeta-apple__img: img(src='@/assets/curso/temas/15.svg', alt='Texto que describa la imagen')
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="I need the biology book and the summary sheets"
+              texto="I need the biology book and the summary sheets."
               :audio="require('@/assets/audio/1.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-            p.mb-3 Necesito <b>el</b> libro de biología Y las hojas de resumen
+            p.mb-3 Necesito <b>el</b> libro de biología y las hojas de resumen.
           p.mb-3 En la oración anterior se muestra que no se necesita un libro cualquiera sino un libro en particular, el de biología.
       .col-lg-6
         .tarjeta.color-primario.bg-claro.p-5.h-100
           h3.text-center Artículos indefinidos (indeterminados): 
-            span.r-3.f-4.p-1.fw-bold A / AN
+            span.r-3.f-4.p-1.fw-bold A/AN
           p.mb-3 En español, los artículos indefinidos son 
-            span.fw-bold un / una / unos / unas 
-            | y varían en número (plural - singular) y en género (femenino - masculino), al igual que lo hacen los sustantivos, pero en el caso del idioma inglés, se cuenta con los artículos indefinidos 
-            span.fst-italic.r-3 a / an 
+            span.fw-bold un/una/unos/unas 
+            | y varían en número (plural-singular) y en género (femenino-masculino), al igual que lo hacen los sustantivos, pero en el caso del idioma inglés, se cuenta con los artículos indefinidos 
+            span.fst-italic.r-3 a/an 
             | para preceder el sustantivo (en singular) inespecífico al que se hace referencia.
             br
             br
             |Los artículos indefinidos 
-            span.fst-italic.r-3 a / an 
+            span.fst-italic.r-3 a/an 
             | son singulares y equivalen en español a los artículos 
-            span.fw-bold un / una, 
+            span.fw-bold un/una, 
             | pero no varían en género. El factor clave para discernir cuál de los dos usar depende del sustantivo que va después:
           .margin-n
             .row.mb-3.g-5
@@ -149,28 +149,28 @@
                     span.fst-italic.r-3 a 
                     | si el sustantivo que va después comienza con un sonido consonante:
                     br
-                    span.fst-italic.r-3 A potato 
-                    | / Una papa
+                    span.fst-italic.r-3 A potato
+                    |/una papa
                     br
-                    span.fst-italic.r-3 A hotel 
-                    | / Un hotel
+                    span.fst-italic.r-3 A hotel
+                    |/un hotel
                     br
-                    span.fst-italic.r-3 A university 
-                    | / Una universidad
+                    span.fst-italic.r-3 A university
+                    |/una universidad
               .col-lg-6
                 .tarjeta-triangulo--izquierda.bg-botones-claro.p-4.d-flex.align-items-center
                   p Usamos 
                     span.fst-italic.r-3 an 
                     | si el sustantivo que va después comienza con un sonido vocálico:
                     br
-                    span.fst-italic.r-3 An onion 
-                    | / Una cebolla
+                    span.fst-italic.r-3 An onion
+                    |/una cebolla
                     br
-                    span.fst-italic.r-3 An hour 
-                    | / Una hora
+                    span.fst-italic.r-3 An hour
+                    |/una hora
                     br
-                    span.fst-italic.r-3 An umbrella 
-                    | / Un paraguas
+                    span.fst-italic.r-3 An umbrella
+                    |/un paraguas
           p.fw-bold Por ejemplo: 
           .tarjeta.bg-white.ps-5.p-4.tarjeta-apple.ms-lg-5.mb-5
             .tarjeta-apple__img: img(src='@/assets/curso/temas/15.svg', alt='Texto que describa la imagen')
@@ -192,13 +192,13 @@
     p.mb-5(data-aos='fade-right') Cuando se va a hacer referencia de forma no específica a más de un sustantivo se puede usar 
       span.fst-italic.r-3 some 
       | para hacer las veces de 
-      span.fw-bold unos / unas, 
+      span.fw-bold unos/unas, 
       | teniendo en cuenta que 
       span.fst-italic.r-3 some 
-      | NO es un artículo indefinido y puede interpretarse también como algunos / algunas:
+      | no es un artículo indefinido y puede interpretarse también como algunos / algunas:
     .titulo-sexto.color-acento-contenido
       h5 Tabla 2
-      span <em>Some</em> – Unos/Unas
+      span <em>Some</em>–Unos/Unas
     .row.justify-content-center.mb-5
       .col-lg-6
         .tarjeta.bg-contenido-claro.d-flex.justify-content-center.px-5.align-items-end(data-aos='zoom-in-up')
@@ -253,7 +253,7 @@
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-left')
       h2 1.2 Sustantivos comunes y propios relacionados
-    p.mb-5(data-aos='fade-right') Los sustantivos son palabras que funcionan para nombrar algo y pueden hacer referencia a una persona (William Smith), una cosa (<em>computer</em> / computador), un animal (<em>cat</em> / gato - gata), un lugar (<em>Rome</em> / Roma), una cualidad (<em>opacity</em> / opacidad), una idea (<em>love</em> / amor), una actividad (natación / <em>swimming</em>), etc.
+    p.mb-5(data-aos='fade-right') Los sustantivos son palabras que funcionan para nombrar algo y pueden hacer referencia a una persona (William Smith), una cosa (<em>computer</em>/computador), un animal (<em>cat</em>/gato-gata), un lugar (<em>Rome</em>/Roma), una cualidad (<em>opacity</em>/opacidad), una idea (<em>love</em>/amor), una actividad (natación/<em>swimming</em>), etc.
     .row.justify-content-center.align-items-end
       .col-lg-4(data-aos='fade-right').mb-3.mb-lg-0
         img(src='@/assets/curso/temas/3.png', alt='Texto que describa la imagen')
@@ -286,7 +286,7 @@
                   tr
                     td
                       span.fst-italic.r-3 Cat
-                    td Gato - gata
+                    td Gato-gata
                   tr
                     td
                       span.fst-italic.r-3 City
@@ -331,7 +331,7 @@
                     td
                       span.fst-italic.r-3 Cat
 
-                    td Gato - gata → Max
+                    td Gato-gata → Max
 
                   tr
                     td
@@ -341,26 +341,26 @@
                     td
                       span.fst-italic.r-3 Planet
                     td Planeta → Pluto (Plutón)
-    p.mb-5(data-aos='fade-right') A veces, se puede hacer referencia a una persona no por su nombre, sino por su ocupación, su profesión, su título laboral o algún rol específico que desempeña. En esta situación, ese título se estaría usando como un caso vocativo (en inglés, llamado <em>Nouns of Address o Vocatives</em>) y ese sustantivo sería considerado un sustantivo propio, sin importar que bajo cualquier otra circunstancia sea considerado un sustantivo común.
+    p.mb-5(data-aos='fade-right') A veces, se puede hacer referencia a una persona no por su nombre, sino por su ocupación, su profesión, su título laboral o algún rol específico que desempeña. En esta situación, ese título se estaría usando como un caso vocativo (en inglés, llamado <em>nouns of address o vocatives</em>) y ese sustantivo sería considerado un sustantivo propio, sin importar que bajo cualquier otra circunstancia sea considerado un sustantivo común.
     .row.justify-content-center.mb-5
       .col-lg-4
         .tarjeta.color-primario.bg-claro.tarjeta-icon.p-4.mb-3.mb-lg-0 
           img(src='@/assets/curso/temas/4.svg', alt='Texto que describa la imagen' style='width: 92px').m-auto
           p.text-center.mb-0  
-            span.fst-italic.r-3 Mom / 
-            | Mamá        
+            span.fst-italic.r-3 Mom/
+            |mamá        
       .col-lg-4
         .tarjeta.color-primario.bg-claro.tarjeta-icon.p-4.mb-3.mb-lg-0 
           img(src='@/assets/curso/temas/5.svg', alt='Texto que describa la imagen' style='width: 92px').m-auto
           p.text-center.mb-0.ms-lg-3 
-            span.fst-italic.r-3 Doctor / 
-            | doctor - doctora      
+            span.fst-italic.r-3 Doctor/
+            |doctor - doctora      
       .col-lg-4
         .tarjeta.color-primario.bg-claro.tarjeta-icon.p-4 
           img(src='@/assets/curso/temas/6.svg', alt='Texto que describa la imagen' style='width: 92px').m-auto
           p.text-center.mb-0.ms-lg-5 
-            span.fst-italic.r-3 Coach / 
-            | entrenador - entrenadora 
+            span.fst-italic.r-3 Coach/
+            |entrenador - entrenadora 
     p.fw-bold Por ejemplo: 
     img(src='@/assets/curso/temas/7.svg', alt='Texto que describa la imagen')
     .row.justify-content-center.mb-5.g-0

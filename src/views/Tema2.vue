@@ -5,10 +5,10 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero.text-white
         span 2
-      h1 La persona gramatical y el verbo "to be"
+      h1 La persona gramatical y el verbo <em>to be</em>
     p.mb-5(data-aos='fade-right') La persona gramatical, como sujeto que ejecuta una acción, y el verbo to be (ser o estar), como esa acción que se lleva a cabo, es una estructura básica para empezar a aprender el idioma inglés.
     h3(data-aos='fade-right') Pronombres de sujeto
-    p.mb-5(data-aos='fade-right') Los pronombres de sujeto (también llamados en español pronombres personales, y en inglés, subject pronouns) se utilizan para reemplazar a cualquier sustantivo (persona, animal, objeto, lugar, etc.) que esté haciendo las veces de sujeto en una oración:
+    p.mb-5(data-aos='fade-right') Los pronombres de sujeto (también llamados en español pronombres personales, y en inglés, <em>subject pronouns</em>) se utilizan para reemplazar a cualquier sustantivo (persona, animal, objeto, lugar, etc.) que esté haciendo las veces de sujeto en una oración:
     .titulo-sexto.color-acento-contenido
       h5 Tabla 3
       span Pronombres de sujeto
@@ -25,9 +25,9 @@
             td Ejemplo
           tr
             td(rowspan='5').fw-bold Singular
-            td.fw-bold 1era persona
+            td.fw-bold 1.ª persona
             td.bg-1-claro.fw-bold I
-            td yo
+            td Yo
             td
               TarjetaAudio.color-acento-contenido.mb-3.text-start(
             texto="I am a student."
@@ -36,30 +36,30 @@
         )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
             td.text-start
-              p <b>Yo</b> soy un estudiante
+              p <b>Yo</b> soy un estudiante.
           tr
-            td.fw-bold 2nda persona
+            td.fw-bold 2.ª persona
             td.bg-1-claro.fw-bold You
-            td Tú / usted
+            td Tú/usted
             td
               TarjetaAudio.color-acento-contenido.mb-3.text-start(
-                texto="You are Colombian"
+                texto="You are Colombian."
                 :audio="require('@/assets/audio/9.mp3')"
                 )
 
             td.text-start
-              p <b>Tú</b> eres colombiano
+              p <b>Tú</b> eres colombiano.
           tr
-            td(rowspan='3').fw-bold 3era persona
+            td(rowspan='3').fw-bold 3.ª persona
             td.bg-1-claro.fw-bold He
-            td El
+            td Él
             td
               TarjetaAudio.color-acento-contenido.mb-3.text-start(
-                texto="Fabio is very fiendly.<br> He is very friendly"
+                texto="Fabio is very fiendly.<br> He is very friendly."
                 :audio="require('@/assets/audio/10.mp3')"
                 )
             td.text-start
-              p <b>Fabio</b> es muy amigable <br><br> <b>Él</b> es muy amigable
+              p <b>Fabio</b> es muy amigable <br><br> <b>Él</b> es muy amigable.
           tr
             td.bg-1-claro.fw-bold She
             td Ella
@@ -75,7 +75,7 @@
                 | <b>Ella</b> vive en Chile.
           tr
             td.bg-1-claro.fw-bold It
-            td (Eso)
+            td Eso
             td
               TarjetaAudio.color-acento-contenido.mb-3.text-start(
                 texto="The dog eats a lot.<br> It eats a lot."
@@ -88,7 +88,7 @@
                 |  <b>Él</b> (eso) come mucho.
           tr
             td(rowspan='3').fw-bold Plural
-            td.fw-bold 1era persona
+            td.fw-bold 1.ª persona
             td.bg-1-claro.fw-bold We
             td nosotros
             td 
@@ -103,7 +103,7 @@
                 br
                 | <b>Nosotros</b> nadamos en el mar.
           tr
-            td.fw-bold 2nda persona
+            td.fw-bold 2.ª persona
             td.bg-1-claro.fw-bold You
             td ustedes
             td 
@@ -118,7 +118,7 @@
                 br
                 | <b>Ustedes</b> son vegetarianos.
           tr
-            td.fw-bold 3era persona
+            td.fw-bold 3.ª persona
             td.bg-1-claro.fw-bold They
             td ellos
             td 
@@ -127,7 +127,7 @@
                 :audio="require('@/assets/audio/15.mp3')"
                 )
             td.text-start
-              p <b>Lisa, William y Hector</b> trabajan en el hospital
+              p <b>Lisa, William y Hector</b> trabajan en el hospital.
                 br
                 br
                 | <b>Ellos</b> trabajan en el hospital.
@@ -387,7 +387,7 @@
             td Ejemplo
           tr
             td(rowspan='5').fw-bold Singular
-            td.fw-bold 1era persona
+            td.fw-bold 1.ª persona
             td.bg-1-claro.fw-bold I
             td am
             td
@@ -405,7 +405,7 @@
                 br
                 | Yo <b>estoy</b> en el laboratorio.
           tr
-            td.fw-bold 2nda persona
+            td.fw-bold 2.ª persona
             td.bg-1-claro.fw-bold You
             td are
             td
@@ -424,7 +424,7 @@
                 br
                 | Tú <b>estás</b> en tu oficina.
           tr
-            td(rowspan='3').fw-bold 3era persona
+            td(rowspan='3').fw-bold 3.ª persona
             td.bg-1-claro.fw-bold He
             td is
             td
@@ -472,13 +472,13 @@
                 :audio="require('@/assets/audio/26.mp3')"
                 )
             td.text-start
-              p (eso) <b>Es</b> un perro.
+              p (Eso) <b>Es</b> un perro.
                 br
                 br
-                |  (eso) <b>Está</b> en el veterinario.
+                |  (Eso) <b>Está</b> en el veterinario.
           tr
             td(rowspan='3').fw-bold Plural
-            td.fw-bold 1era persona
+            td.fw-bold 1.ª persona
             td.bg-1-claro.fw-bold We
             td are
             td 
@@ -497,7 +497,7 @@
                 br
                 | Nosotros <b>estamos</b> en la cafetería.
           tr
-            td.fw-bold 2nda persona
+            td.fw-bold 2.ª persona
             td.bg-1-claro.fw-bold You
             td are
             td 
@@ -516,7 +516,7 @@
                 br
                 | Ustedes <b>están</b> en la biblioteca.
           tr
-            td.fw-bold 3era persona
+            td.fw-bold 3.ª persona
             td.bg-1-claro.fw-bold They
             td are
             td 

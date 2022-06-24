@@ -49,7 +49,7 @@ export default {
           },
           {
             personaje: 'Jonathan',
-            textoIng: 'I´m doing very well. I´m feeling better.',
+            textoIng: 'I&#8217m doing very well. I&#8217m feeling better.',
             textoEsp: 'Estoy muy bien. Me siento mejor.',
             audio: require('@/assets/audio/ad/4.mp3'),
           },

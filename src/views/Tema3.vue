@@ -6,7 +6,7 @@
       .titulo-principal__numero.text-white
         span 3
       h1 Greetings and farewells
-    p.mb-5(data-aos='fade-right') El primer paso que se da en una conversación es saludar, por ende, inicialmente, para comunicarse en inglés, es importante aprender los diferentes tipos de saludos (greetings) y determinar bajo qué contextos pueden utilizarse: 
+    p.mb-5(data-aos='fade-right') El primer paso que se da en una conversación es saludar, por ende, inicialmente, para comunicarse en inglés, es importante aprender los diferentes tipos de saludos (<em>greetings</em>) y determinar bajo qué contextos pueden utilizarse: 
     .row.justify-content-center.mb-5
       .col-xl-6.mb-3.mb-xl-0
         .tarjeta.color-secundario.p-5
@@ -45,7 +45,7 @@
                       texto="It’s an honor to meet you"
                       :audio="require('@/assets/audio/56.mp3')"
                       )
-                    p.ms-3 Es un honor conocerlo / 
+                    p.ms-3 Es un honor conocerlo/
                       br
                       |Es un honor conocerte
                     TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
@@ -116,7 +116,7 @@
                       texto="Hi! "
                       :audio="require('@/assets/audio/64.mp3')"
                       )
-                    p.ms-3 Hola!
+                    p.ms-3 ¡Hola!
                     TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
                       texto="Howdy!"
                       :audio="require('@/assets/audio/65.mp3')"
@@ -134,7 +134,7 @@
                       texto="What’s going on?"
                       :audio="require('@/assets/audio/67.mp3')"
                       )
-                    p.ms-3 Qué está sucediendo?
+                    p.ms-3 ¿Qué está sucediendo?
                       br
                       |¿Qué pasa?
                       br
@@ -180,7 +180,7 @@
                       :audio="require('@/assets/audio/74.mp3')"
                       )
                     p.ms-3 ¿Cómo están las cosas?.
-    p.mb-5(data-aos='fade-left') Y el último paso en una conversación es despedirse (farewells). Repase a continuación los diferentes tipos de despedidas: 
+    p.mb-5(data-aos='fade-left') Y el último paso en una conversación es despedirse (<em>farewells</em>). Repase a continuación los diferentes tipos de despedidas: 
     .row.justify-content-center.mb-5
       .col-xl-6.mb-3.mb-lg-0
         .tarjeta.color-acento-contenido.p-5.mb-3.mb-xl-0
@@ -215,7 +215,7 @@
                       texto="Take care"
                       :audio="require('@/assets/audio/78.mp3')"
                       )
-                    p.ms-3 Cuídese / Cuídate
+                    p.ms-3 Cuídese/Cuídate
                   div.ps-2
                     TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
                       texto="I look forward to seeing you again"
@@ -439,7 +439,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-4.order-lg-1.order-1.mb-3.mb-lg-0
             p.mb-0.text-lg-start.text-center 
-              span.r-3.fst-italic I'm sorry, I've got to go. / I'm sorry, I've gotta go.
+              span.r-3.fst-italic I'm sorry, I've got to go./I'm sorry, I've gotta go.
               br 
               | Lo siento, tengo que irme.
           .col-lg-4.col-8.order-lg-2.order-3: img(src='@/assets/curso/temas/24.svg')

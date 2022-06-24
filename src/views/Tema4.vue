@@ -26,7 +26,7 @@
     .titulo-sexto.color-acento-contenido
       h5 Tabla 6
       span Los sonidos de las vocales
-    .bg--4-claro.p-5
+    .bg--4-claro.p-5.mb-4
       .row.justify-content-center.mb-3
         .col-lg-6
           .tarjeta-avatar-b.mb-5
@@ -37,7 +37,7 @@
                 p
                   span.text-white Corta → æ
                     br
-                    b Apple, cat, man.
+                    b Apple, cat, man. 
                   br
                   | Ejercicio:
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
@@ -71,6 +71,7 @@
                   span.text-white Corta → e
                     br
                     |Jet, net, bed, ten
+                  br
                   | Ejercicio: 
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
                       texto="Let me get the set."
@@ -86,6 +87,7 @@
                   span.text-white  Larga → i
                     br
                     | Sheep, feet, he, we, cheap.
+                  br
                   | Ejercicio: 
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
                       texto="We liked the cheap jeep."
@@ -102,6 +104,7 @@
                   span.text-white Corta → ɪ
                     br
                     |Fish, pig, ship, trick.
+                  br
                   | Ejercicio: 
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
                       texto="I fit my clip onto my wrist."
@@ -117,6 +120,7 @@
                   span.text-white Larga → ɜ 
                     br
                     | Bird, third, first, girl.
+                  br
                   | Ejercicio: 
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
                       texto="The first bird sang for the girl."
@@ -133,6 +137,7 @@
                   span.text-white Corta → ɒ
                     br
                     |Clock, dog, on, hot.
+                  br
                   | Ejercicio: 
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
                       texto="It's hot in the box. "
@@ -148,6 +153,7 @@
                   span.text-white Larga → ɔ
                     br
                     | Or, four, door.
+                  br
                   | Ejercicio: 
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
                       texto="Are there four horns or four doors?"
@@ -164,6 +170,7 @@
                   span.text-white Corta → ʌ
                     br
                     |Sun, jump, up, umbrella.
+                  br
                   | Ejercicio: 
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
                       texto="But the butter is upstairs. "
@@ -179,6 +186,7 @@
                   span.text-white Larga → u  
                     br
                     | Rude, crude, dude, you.
+                  br
                   | Ejercicio: 
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
                       texto="You are being rude, dude"
@@ -196,6 +204,7 @@
                   span Corto → ə
                     br
                     | <b>The, banana, another, teacher, problem</b>
+                  br
                   | Ejercicio: 
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
                       texto=" I want water and another banana. "
@@ -211,6 +220,7 @@
                   span Corto → ʊ 
                     br
                     | <b>Full, put, should, good, room.</b>
+                  br
                   | Ejercicio: 
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
                       texto=" I would if I could, but I don't know if I should."
@@ -277,7 +287,7 @@
                 | es considerada tradicionalmente una consonante (sin importar que se encuentre con mayor frecuencia como una vocal). 
     Separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 4.2 Colors / Colours
+      h2 4.2 Colors/colours
     p.mb-5(data-aos='fade-right') Al continuar con los conceptos y vocabulario básico, es importante reconocer los nombres de los colores en inglés:
     .titulo-sexto.color-acento-contenido
       h5 Tabla 8
@@ -361,7 +371,7 @@
         .tarjeta.bg-white.p-3.w-100
           Audio.color-acento-contenido.mb-2.m-auto(:audio="require('@/assets/audio/122.mp3')")
           p.text-center
-            span.r-3.fst-italic.fw-bold Gray / Grey
+            span.r-3.fst-italic.fw-bold Gray/grey
 
             br
             | Gris
@@ -443,7 +453,7 @@
                 .row.justify-content-center.mb-5
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
-                    texto="0 → Zero / Oh"
+                    texto="0 → Zero/Oh"
                     :audio="require('@/assets/audio/128.mp3')"
                     )
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
@@ -495,20 +505,20 @@
               .tarjeta.bg--4-claro.p-5
                 h4 El número cero (0) puede llamarse de dos formas:
                 p.mb-3 
-                  span.r-3.fst-italic Zero / Oh 
+                  span.r-3.fst-italic Zero/Oh 
                   | (se pronuncia como la letra O del alfabeto) 
                   br
                   br
                   |Comúnmente, se usa el término 
                   span.r-3.fst-italic “zero” 
                   | en contextos matemáticos y científicos. Por el contrario, 
-                  span.r-3.fst-italic “Oh” 
+                  span.r-3.fst-italic “oh” 
                   | es más común en contextos como el dictado de un número telefónico o un código:
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
-                      texto="My phone number is three - one- oh - seven - eight - nine - four - five - one - four."
+                      texto="My phone number is three-one-oh-seven-eight-nine-four-five-one-four."
                       :audio="require('@/assets/audio/140.mp3')"
                       )
-                p.mb-3 Mi número de teléfono es 3 - 1 - 0 - 7 - 8 - 9 - 4 - 5 - 1 - 4.
+                p.mb-3 Mi número de teléfono es 3-1-0-7-8-9-4-5-1-4.
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
                       texto="My pin code is one - oh - two- oh."
                       :audio="require('@/assets/audio/141.mp3')"
@@ -584,7 +594,7 @@
                         )
                     .col-lg-6
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
-                      texto="60 → Sixty Eight"
+                      texto="60 → Sixty eight"
                       :audio="require('@/assets/audio/156.mp3')"
                       )
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
@@ -609,16 +619,16 @@
               .tarjeta.bg--4-claro.p-5
                 h4.text-center.mb-3 Las decenas…
                 p.text-center El número 20 es 
-                  span.r-3.fst-italic “twenty” 
+                  span.r-3.fst-italic twenty 
                   | en inglés, entonces, si queremos mostrar el número 25, solo basta recordar el número 5 que se escribe 
-                  span.r-3.fst-italic “five” 
+                  span.r-3.fst-italic five
                   | y agregarlo, por lo tanto, el número 25 en inglés se leería 
                   span.r-3.fst-italic twenty-five, 
                   | y así sucesivamente si se quiere hablar de cualquier número entre 20 y 99. En estos números, solo se debe usar la decena y el número del 1 al 9 correspondiente.
                 .row.justify-content-center
                   .col-lg-4
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
-                        texto="25 → Twenty-five."
+                        texto="25 → Twenty-five"
                         :audio="require('@/assets/audio/168.mp3')"
                         )
                       h4.fst-italic 20: Twenty
@@ -626,7 +636,7 @@
                         |5: Five
                   .col-lg-4
                       TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
-                        texto="68 → Sixty Eight"
+                        texto="68 → Sixty eight"
                         :audio="require('@/assets/audio/169.mp3')"
                         )
                       h4.fst-italic 68: Sixty
@@ -643,7 +653,7 @@
             div
               .tarjeta.bg--4-claro.p-5
                 h4.text-center.fw-bold
-                  span.tarjeta.color-acento-contenido.rounded-0.p-2.px-5 Warning! / ¡Advertencia!
+                  span.tarjeta.color-acento-contenido.rounded-0.p-2.px-5 Warning!/¡Advertencia!
                 p.text-center Si bien se ve una similitud en los números de uno y dos dígitos que podría llegar a parecer un patrón en el que solo se agrega una terminación como -teen o -ty (como, por ejemplo, 6 
                   span.r-3.fst-italic six,
                   |  16 
