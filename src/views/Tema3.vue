@@ -483,24 +483,24 @@ export default {
         dialogo: [
           {
             personaje: 'Jonathan',
-            textoIng: '*** ',
+            textoIng: 'Hello, Doctor. How are ***?',
             textoEsp: 'Hola, doctor. ¿Cómo estás?',
             audio: require('@/assets/audio/ad/1.mp3'),
-            palabra: 'Hello, Doctor. How are you?',
+            palabra: 'you',
           },
           {
             personaje: 'Doctor',
-            textoIng: '*** ',
+            textoIng: 'Good *** Jonathan.',
             textoEsp: 'Buenos días Jonathan .',
             audio: require('@/assets/audio/ad/2.wav'),
-            palabra: 'Good morning Jonathan.',
+            palabra: 'morning',
           },
           {
             personaje: 'Doctor',
-            textoIng: '***.',
+            textoIng: 'I am ***. How are you doing?.',
             textoEsp: 'Estoy bien, ¿cómo estás?',
             audio: require('@/assets/audio/ad/3.wav'),
-            palabra: 'I am great. How are you doing?',
+            palabra: 'great',
           },
           {
             personaje: 'Jonathan',
@@ -510,17 +510,17 @@ export default {
           },
           {
             personaje: 'Doctor',
-            textoIng: ' ***.',
+            textoIng: 'It was *** to see you! I am glad you feel better.',
             textoEsp: ' ¡Qué gusto verte! Me alegro de que te sientas mejor.',
             audio: require('@/assets/audio/ad/5.wav'),
-            palabra: ' It was nice to see you! I am glad you feel better. ',
+            palabra: 'nice',
           },
           {
             personaje: 'Jonathan',
-            textoIng: ' ***.',
+            textoIng: ' Thank you Doctor. *** a great day! ',
             textoEsp: 'Gracias Doctor. ¡Qué tengas un lindo día! ',
             audio: require('@/assets/audio/ad/6.mp3'),
-            palabra: ' Thank you Doctor. Have a great day!  ',
+            palabra: 'have',
           },
           {
             personaje: 'Doctor',
