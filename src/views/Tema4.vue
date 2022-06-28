@@ -621,8 +621,8 @@
                 p.text-center El número 20 es 
                   span.r-3.fst-italic twenty 
                   | en inglés, entonces, si queremos mostrar el número 25, solo basta recordar el número 5 que se escribe 
-                  span.r-3.fst-italic five
-                  | y agregarlo, por lo tanto, el número 25 en inglés se leería 
+                  span.r-3.fst-italic five  
+                  |  y agregarlo, por lo tanto, el número 25 en inglés se leería 
                   span.r-3.fst-italic twenty-five, 
                   | y así sucesivamente si se quiere hablar de cualquier número entre 20 y 99. En estos números, solo se debe usar la decena y el número del 1 al 9 correspondiente.
                 .row.justify-content-center

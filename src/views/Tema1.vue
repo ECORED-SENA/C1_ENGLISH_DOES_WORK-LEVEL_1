@@ -110,10 +110,10 @@
                     |(femenino-masculino):
                     br
                     span.fst-italic.r-3 The cat
-                    |/la gata - El gato
+                    |/la gata-el gato
                     br
                     span.fst-italic.r-3 The cats
-                    |/las gatas - Los gatos
+                    |/las gatas-los gatos
           p.fw-bold Por ejemplo: 
           .tarjeta.bg-white.ps-5.p-4.tarjeta-apple.ms-lg-5.mb-5
             .tarjeta-apple__img: img(src='@/assets/curso/temas/15.svg', alt='Texto que describa la imagen')
@@ -198,7 +198,7 @@
       | no es un artículo indefinido y puede interpretarse también como algunos / algunas:
     .titulo-sexto.color-acento-contenido
       h5 Tabla 2
-      span <em>Some</em>–Unos/Unas
+      span <em>Some</em>–unos/unas
     .row.justify-content-center.mb-5
       .col-lg-6
         .tarjeta.bg-contenido-claro.d-flex.justify-content-center.px-5.align-items-end(data-aos='zoom-in-up')
@@ -302,11 +302,11 @@
                   tr
                     td
                       span.fst-italic.r-3 Doctor
-                    td Doctor - doctora
+                    td Doctor-doctora
                   tr
                     td
                       span.fst-italic.r-3 Coach 
-                    td Entrenador - entrenadora
+                    td Entrenador-entrenadora
       .col-lg-6
         .tarjeta.color-primario.bg-claro.p-5.h-100(data-aos='zoom-in')
           .text-center
@@ -354,7 +354,7 @@
           img(src='@/assets/curso/temas/5.svg', alt='Texto que describa la imagen' style='width: 92px').m-auto
           p.text-center.mb-0.ms-lg-3 
             span.fst-italic.r-3 Doctor/
-            |doctor - doctora      
+            |doctor-doctora      
       .col-lg-4
         .tarjeta.color-primario.bg-claro.tarjeta-icon.p-4 
           img(src='@/assets/curso/temas/6.svg', alt='Texto que describa la imagen' style='width: 92px').m-auto

@@ -90,10 +90,10 @@
             td(rowspan='3').fw-bold Plural
             td.fw-bold 1.ª persona
             td.bg-1-claro.fw-bold We
-            td nosotros
+            td Nosotros
             td 
               TarjetaAudio.color-acento-contenido.mb-3.text-start(
-                texto="Andrea and I swim in the sea <br> We swim in the sea."
+                texto="Andrea and I swim in the sea. <br> We swim in the sea."
                 :audio="require('@/assets/audio/13.mp3')"
                 )
               
@@ -105,10 +105,10 @@
           tr
             td.fw-bold 2.ª persona
             td.bg-1-claro.fw-bold You
-            td ustedes
+            td Ustedes
             td 
               TarjetaAudio.color-acento-contenido.mb-3.text-start(
-                texto="You and John are vegetarians <br> You are vegetarians."
+                texto="You and John are vegetarians. <br> You are vegetarians."
                 :audio="require('@/assets/audio/14.mp3')"
                 )
               
@@ -120,7 +120,7 @@
           tr
             td.fw-bold 3.ª persona
             td.bg-1-claro.fw-bold They
-            td ellos
+            td Ellos
             td 
               TarjetaAudio.color-acento-contenido.mb-3.text-start(
                 texto="Lisa, William and Hector work at the hospital. <br> They work at the hospital."
@@ -514,7 +514,7 @@
               p Ustedes son amigables.
                 br
                 br
-                | Ustedes <b>están</b> en la biblioteca.
+                | Ustedes <b>están</b> en la biblioteca. 
           tr
             td.fw-bold 3.ª persona
             td.bg-1-claro.fw-bold They

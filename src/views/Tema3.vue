@@ -23,7 +23,7 @@
                       texto="Hello!"
                       :audio="require('@/assets/audio/52.mp3')"
                       )
-                    p.ms-3 Hola!
+                    p.ms-3 ¡Hola!
                     TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
                       texto="Good morning"
                       :audio="require('@/assets/audio/53.mp3')"
@@ -215,7 +215,7 @@
                       texto="Take care"
                       :audio="require('@/assets/audio/78.mp3')"
                       )
-                    p.ms-3 Cuídese/Cuídate
+                    p.ms-3 Cuídese/cuídate
                   div.ps-2
                     TarjetaAudio.color-acento-contenido.mb-3.text-start.text-small(
                       texto="I look forward to seeing you again"
