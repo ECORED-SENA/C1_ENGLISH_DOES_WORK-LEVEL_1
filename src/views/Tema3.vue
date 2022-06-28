@@ -434,7 +434,7 @@
       span.r-3.fst-italic “got to” 
       | y que suele acortarse como 
       span.r-3.fst-italic “gotta”:
-    .franja
+    .franja.mb-5
       .content
         .row.justify-content-center.align-items-center
           .col-lg-4.order-lg-1.order-1.mb-3.mb-lg-0
@@ -448,6 +448,12 @@
               span.r-3.fst-italic Thank you all again, and goodbye. I've got to go
               br 
               | Gracias a todos de nuevo, y adiós. Me tengo que ir.
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 Actividad didáctica
+    Dialogo.color-primario(:dialogo="dialogo")
+      template(#nombre-actividad) Arrastrar y Soltar
+      template(#titulo-actividad) Greeting the doctor. / Saludando al doctor.
+      template(#descripcion-actividad) Organizar en el orden correcto una conversación.
 
 
 
@@ -461,9 +467,72 @@
 <script>
 export default {
   name: 'Tema3',
-  data: () => ({
-    // variables de vue
-  }),
+  data() {
+    return {
+      dialogo: {
+        personajes: [
+          {
+            nombre: 'Doctor',
+            img: require('@/assets/curso/temas/doctor.svg'),
+          },
+          {
+            nombre: 'Jonathan',
+            img: require('@/assets/curso/temas/jonathan.svg'),
+          },
+        ],
+        dialogo: [
+          {
+            personaje: 'Jonathan',
+            textoIng: '*** ',
+            textoEsp: 'Hola, doctor. ¿Cómo estás?',
+            audio: require('@/assets/audio/ad/1.mp3'),
+            palabra: 'Hello, Doctor. How are you?',
+          },
+          {
+            personaje: 'Doctor',
+            textoIng: '*** ',
+            textoEsp: 'Buenos días Jonathan .',
+            audio: require('@/assets/audio/ad/2.wav'),
+            palabra: 'Good morning Jonathan.',
+          },
+          {
+            personaje: 'Doctor',
+            textoIng: '***.',
+            textoEsp: 'Estoy bien, ¿cómo estás?',
+            audio: require('@/assets/audio/ad/3.wav'),
+            palabra: 'I am great. How are you doing?',
+          },
+          {
+            personaje: 'Jonathan',
+            textoIng: 'I&#8217m doing very well. I&#8217m feeling better.',
+            textoEsp: 'Estoy muy bien. Me siento mejor.',
+            audio: require('@/assets/audio/ad/4.mp3'),
+          },
+          {
+            personaje: 'Doctor',
+            textoIng: ' ***.',
+            textoEsp: ' ¡Qué gusto verte! Me alegro de que te sientas mejor.',
+            audio: require('@/assets/audio/ad/5.wav'),
+            palabra: ' It was nice to see you! I am glad you feel better. ',
+          },
+          {
+            personaje: 'Jonathan',
+            textoIng: ' ***.',
+            textoEsp: 'Gracias Doctor. ¡Qué tengas un lindo día! ',
+            audio: require('@/assets/audio/ad/6.mp3'),
+            palabra: ' Thank you Doctor. Have a great day!  ',
+          },
+          {
+            personaje: 'Doctor',
+            textoIng: ' ***.',
+            textoEsp: 'Adiós.',
+            audio: require('@/assets/audio/ad/7.wav'),
+            palabra: ' Goodbye. ',
+          },
+        ],
+      },
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
