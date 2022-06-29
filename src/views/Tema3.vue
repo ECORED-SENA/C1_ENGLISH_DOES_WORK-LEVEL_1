@@ -453,7 +453,7 @@
     Dialogo.color-primario(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Greeting the doctor. / Saludando al doctor.
-      template(#descripcion-actividad) Organizar en el orden correcto una conversación.
+      template(#descripcion-actividad) Escuche los audios y complete los espacios en blanco de cada una de las frases arrastrando el término correcto.
 
 
 
