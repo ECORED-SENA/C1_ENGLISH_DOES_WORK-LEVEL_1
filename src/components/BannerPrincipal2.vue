@@ -6,7 +6,7 @@
     .row.banner-principal__row.position-relative.justify-content-center.align-items-center
       .col-lg-7.col-xxl-5.py-4.py-sm-5.banner-principal__info.px-3
         .banner-principal__componente
-          h1.mb-0(v-html="globalData.componenteFormativoENG")
+          h1.mb-0.mt-5(v-html="globalData.componenteFormativoENG")
           h1.mb-0.text-white(v-html="globalData.componenteFormativo")
         .col-lg-12
           .banner-principal__descripcion
@@ -21,6 +21,7 @@
     .imagen_flotante_1.d-none.d-lg-block: img(src="@/assets/curso/portada/float1.svg")
     .imagen_flotante_2.d-none.d-lg-block: img(src="@/assets/curso/portada/float2.svg")
     .imagen_flotante_3.d-none.d-lg-block: img(src="@/assets/curso/portada/float3.svg")
+    .imagen_flotante_4.d-none.d-lg-block: img(src="@/assets/curso/portada/flag.svg")
     //- .imagen_flotante_4.d-none.d-lg-block: img(src="@/assets/curso/portada/float4.png")
     //- .imagen_flotante_5.d-none.d-lg-block: img(src="@/assets/curso/portada/float5.png")
     //- .imagen_flotante_6.d-none.d-lg-block: img(src="@/assets/curso/portada/float6.png")
@@ -138,11 +139,11 @@ export default {
     top: 7%
     left: 79%
   &_4
-    animation: float1 4s ease-in-out infinite alternate
+    // animation: float1 4s ease-in-out infinite alternate
     position: absolute
     width: 72,94px
-    bottom: 40%
-    left: 78%
+    top: 12%
+    left: 10%
     z-index: 99
   &_5
     animation: float2 3.9s ease-in-out infinite alternate

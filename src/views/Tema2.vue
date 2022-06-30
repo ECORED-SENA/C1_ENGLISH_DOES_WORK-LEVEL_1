@@ -539,7 +539,7 @@
     p.mb-5(data-aos='fade-right') A continuación, observe cómo las contracciones se crean en inglés, particularmente con el verbo to be y los pronombres de sujeto:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/4DFFbZqMYjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/NA9zOpqssgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center.align-items-end.mb-5
       .col-lg-4.col-8(data-aos='fade-right').mb-3.mb-lg-0
         img(src='@/assets/curso/temas/13.png', alt='Texto que describa la imagen' wi)
