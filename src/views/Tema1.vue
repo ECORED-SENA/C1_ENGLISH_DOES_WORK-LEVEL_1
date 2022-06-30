@@ -360,7 +360,7 @@
           img(src='@/assets/curso/temas/6.svg', alt='Texto que describa la imagen' style='width: 92px').m-auto
           p.text-center.mb-0.ms-lg-5 
             span.fst-italic.r-3 Coach/
-            |entrenador - entrenadora 
+            |entrenador-entrenadora 
     p.fw-bold Por ejemplo: 
     img(src='@/assets/curso/temas/7.svg', alt='Texto que describa la imagen')
     .row.justify-content-center.mb-5.g-0
