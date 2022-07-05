@@ -7,7 +7,7 @@
       .col-lg-7.col-xxl-5.py-4.py-sm-5.banner-principal__info.px-3
         .banner-principal__componente
           h1.mb-0.mt-5(v-html="globalData.componenteFormativoENG")
-          h1.mb-0.text-white(v-html="globalData.componenteFormativo")
+          h1.mb-0(v-html="globalData.componenteFormativo")
         .col-lg-12
           .banner-principal__descripcion
             p.mb-0(v-html="globalData.descripcionCurso")

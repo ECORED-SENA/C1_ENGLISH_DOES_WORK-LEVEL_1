@@ -1,8 +1,7 @@
 export default {
   global: {
-    componenteFormativoENG: 'Hello! It’s nice to meet you. ',
     componenteFormativo:
-      '<span class= r-4>¡Hola! Encantado de conocerte.</span>',
+      'Hello! It’s nice to meet you.<br> <span class= r-4>¡Hola! Encantado de conocerte.</span>',
     descripcionCurso:
       'Durante el siguiente componente se brinda la introducción a las nociones gramaticales básicas, desde artículos, sustantivos y pronombres de sujeto para denominar correctamente cualquier cosa (persona, animal, objeto, etc.), pasando por el verbo ser/estar, los saludos y las despedidas, para enunciar ideas un poco más elaboradas; y por último, vocabulario útil, como los números, los colores y la pronunciación del alfabeto.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
