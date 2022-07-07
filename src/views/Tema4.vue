@@ -515,12 +515,12 @@
                   span.r-3.fst-italic “oh” 
                   | es más común en contextos como el dictado de un número telefónico o un código:
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
-                      texto="My phone number is three-one-oh-seven-eight-nine-four-five-one-four."
+                      texto="My phone number is three-one-zero-seven-eight-nine-four-five-one-four."
                       :audio="require('@/assets/audio/140.mp3')"
                       )
                 p.mb-3 Mi número de teléfono es 3-1-0-7-8-9-4-5-1-4.
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3.text-start(
-                      texto="My pin code is one - oh - two- oh."
+                      texto="My pin code is one - zero - two- zero."
                       :audio="require('@/assets/audio/141.mp3')"
                       )
                 p.mb-3 Mi código pin es 1-0-2-0

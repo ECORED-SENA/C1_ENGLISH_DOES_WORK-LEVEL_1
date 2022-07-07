@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero.text-white
         span 2
-      h1 La persona gramatical y el verbo <em>to be</em>
+      h1 La persona gramatical y verbo <em>to be</em>
     p.mb-5(data-aos='fade-right') La persona gramatical, como sujeto que ejecuta una acción, y el verbo to be (ser o estar), como esa acción que se lleva a cabo, es una estructura básica para empezar a aprender el idioma inglés.
     h3(data-aos='fade-right') Pronombres de sujeto
     p.mb-5(data-aos='fade-right') Los pronombres de sujeto (también llamados en español pronombres personales, y en inglés, <em>subject pronouns</em>) se utilizan para reemplazar a cualquier sustantivo (persona, animal, objeto, lugar, etc.) que esté haciendo las veces de sujeto en una oración:
